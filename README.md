@@ -13,8 +13,8 @@
 
 ## SelfIntroduce
 - 👋 Hi, I’m @quyansiyuanwang
-- 👀 I’m interested in **Python** and **C++**.
-- 🌱 I’m currently learning **C++**.
+- 👀 I’m interested in __Python__ and __C++__.
+- 🌱 I’m currently learning __C++__.
 - 📫 You can Contact me by methods below:
     - *WeChat*: quyansiyuanwang
     - *QQ*:     2301179475
