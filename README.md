@@ -1,6 +1,3 @@
-## Here
-
-![Avatar](https://s2.loli.net/2023/10/18/17RXoakrjhlpm5L.png)
 <img align="right" style="width:50%; height:auto" src="https://github-readme-stats.vercel.app/api?username=quyansiyuanwang&show_icons=true" />
 
 ## Languages
