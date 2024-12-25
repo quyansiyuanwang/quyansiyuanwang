@@ -1,4 +1,4 @@
-<img align="right" style="width:50%; height:auto" src="https://github-readme-stats.vercel.app/api?username=quyansiyuanwang&show_icons=true" />
+<img align="right" style="width:100%; height:auto" src="https://github-readme-stats.vercel.app/api?username=quyansiyuanwang&show_icons=true" />
 
 ## Languages
 
