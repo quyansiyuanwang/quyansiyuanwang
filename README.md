@@ -1,7 +1,7 @@
 <div style="display: flex;">
-  <img style="width: 50%;" src="https://github-readme-stats.vercel.app/api?username=quyansiyuanwang&show_icons=true" />
+  <img style="width: 40%;" src="https://github-readme-stats.vercel.app/api?username=quyansiyuanwang&show_icons=true" />
 
-  <img style="width: 50%;" src="https://streak-stats.demolab.com/?user=quyansiyuanwang" />
+  <img style="width: 42.4%;" src="https://streak-stats.demolab.com/?user=quyansiyuanwang" />
 </div>
 
 ## Hi there 👋
