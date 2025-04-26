@@ -1,4 +1,4 @@
-<img align="right" style="width:100%; height:auto" src="https://github-readme-stats.vercel.app/api?username=quyansiyuanwang&show_icons=true" />
+<img style="width: 61.8%;" src="https://github-readme-stats.vercel.app/api?username=quyansiyuanwang&show_icons=true" />
 
 ## Languages
 
@@ -6,6 +6,7 @@
 - C++ (Learning...)
 - C (Learning...)
 - C# (Learning...)
+- Java (Learning...)
 
 ## Development Platforms
 
