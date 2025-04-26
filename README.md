@@ -1,8 +1,4 @@
-<div style="display: flex;">
-  <img style="width: 40%;" src="https://github-readme-stats.vercel.app/api?username=quyansiyuanwang&show_icons=true" />
-
-  <img style="width: 42.4%;" src="https://streak-stats.demolab.com/?user=quyansiyuanwang" />
-</div>
+<img src="https://github-readme-stats.vercel.app/api?username=quyansiyuanwang&show_icons=true" />
 
 ## Hi there 👋
 
@@ -23,6 +19,8 @@
 ## Repositories
 
 - [MyGithubRepos](https://github.com/quyansiyuanwang)
+
+<img src="https://streak-stats.demolab.com/?user=quyansiyuanwang" />
 
 ## SelfIntroduce
 
