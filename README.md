@@ -1,4 +1,12 @@
-<img style="width: 61.8%;" src="https://github-readme-stats.vercel.app/api?username=quyansiyuanwang&show_icons=true" />
+<div style="display: flex; justify-content: space-between;">
+  <img style="width: 47.6%;" src="https://github-readme-stats.vercel.app/api?username=quyansiyuanwang&show_icons=true" />
+
+  <img style="width: 50%;" src="https://streak-stats.demolab.com/?user=quyansiyuanwang" />
+</div>
+
+## Hi there 👋
+
+![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Welcome+to+my+GitHub+profile!;Explore+my+projects;lets+free+to+code❤)
 
 ## Languages
 
@@ -20,8 +28,8 @@
 
 - 👋 Hi, I’m @quyansiyuanwang
 - 📫 You can Contact me by methods below:
-  - *WeChat*: quyansiyuanwang
-  - *QQ*:     2301179475
-  - *e-mail*:
+  - _WeChat_: quyansiyuanwang
+  - _QQ_: 2301179475
+  - _e-mail_:
     - `a34323948@icloud.com`
     - `2301179475@qq.com`
