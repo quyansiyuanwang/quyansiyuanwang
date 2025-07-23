@@ -20,7 +20,7 @@
 
 - [MyGithubRepos](https://github.com/quyansiyuanwang)
 
-<img src="https://streak-stats.demolab.com/?user=quyansiyuanwang" />
+![head png](./head.png)
 
 ## SelfIntroduce
 
