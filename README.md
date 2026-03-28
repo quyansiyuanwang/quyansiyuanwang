@@ -49,13 +49,6 @@ const developer = {
 
 ---
 
-## 💭 AI Daily Insight
-
-<!-- AI_INSIGHT_START -->
-<!-- AI_INSIGHT_END -->
-
----
-
 ## 📊 GitHub Stats
 
 <!-- STATS_START -->
