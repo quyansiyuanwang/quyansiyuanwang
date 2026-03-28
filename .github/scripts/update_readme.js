@@ -53,7 +53,7 @@ async function getGithubActivity(username = "quyansiyuanwang") {
     const events = await httpsGet(
       `https://api.github.com/users/${username}/events/public`,
     );
-    return events.slice(0, 20);
+    return events.slice(0, 50);
   } catch {
     return [];
   }
@@ -68,23 +68,19 @@ function extractDetailedActivities(activities) {
 
     if (event.type === "PushEvent") {
       const commits = event.payload.commits || [];
-      const commitCount = commits.length;
       commits.forEach((commit) => {
         details.push(`[${date}] 提交到 ${repo}: ${commit.message}`);
       });
-      if (commitCount > 1) {
-        details.push(`  └─ 共 ${commitCount} 个提交`);
-      }
     } else if (event.type === "PullRequestEvent") {
       const pr = event.payload.pull_request;
       const action = event.payload.action === 'opened' ? '创建' :
                      event.payload.action === 'closed' ? (pr.merged ? '合并' : '关闭') :
                      event.payload.action;
       details.push(
-        `[${date}] ${action} PR #${pr.number} 在 ${repo}: ${pr.title}`
+        `[${date}] ${action} PR #${pr.number} 在 ${repo}: ${pr.title || '无标题'}`
       );
-      if (pr.body && pr.body.length > 0) {
-        details.push(`  └─ 说明: ${pr.body.slice(0, 100)}`);
+      if (pr.body && pr.body.length > 10) {
+        details.push(`  说明: ${pr.body.slice(0, 150)}`);
       }
     } else if (event.type === "IssuesEvent") {
       const issue = event.payload.issue;
@@ -94,6 +90,9 @@ function extractDetailedActivities(activities) {
       details.push(
         `[${date}] ${action} Issue #${issue.number} 在 ${repo}: ${issue.title}`
       );
+      if (issue.body && issue.body.length > 10) {
+        details.push(`  说明: ${issue.body.slice(0, 150)}`);
+      }
     } else if (event.type === "CreateEvent") {
       const refType = event.payload.ref_type === 'branch' ? '分支' :
                       event.payload.ref_type === 'tag' ? '标签' :
@@ -101,14 +100,21 @@ function extractDetailedActivities(activities) {
       const ref = event.payload.ref || '';
       details.push(`[${date}] 创建${refType} ${ref} 在 ${repo}`);
     } else if (event.type === "IssueCommentEvent") {
-      const comment = event.payload.comment.body.slice(0, 80);
-      details.push(`[${date}] 评论 Issue 在 ${repo}: ${comment}`);
+      const comment = event.payload.comment.body;
+      details.push(`[${date}] 评论 Issue #${event.payload.issue.number} 在 ${repo}: ${comment.slice(0, 120)}`);
     } else if (event.type === "PullRequestReviewEvent") {
-      details.push(`[${date}] 审查 PR 在 ${repo}`);
+      const review = event.payload.review;
+      details.push(`[${date}] 审查 PR #${event.payload.pull_request.number} 在 ${repo}`);
+      if (review.body) {
+        details.push(`  评论: ${review.body.slice(0, 120)}`);
+      }
+    } else if (event.type === "PullRequestReviewCommentEvent") {
+      details.push(`[${date}] 评论 PR 在 ${repo}: ${event.payload.comment.body.slice(0, 120)}`);
     }
   }
+
   console.log("[DEBUG] Detailed activities:", details);
-  return details.slice(0, 40);
+  return details;
 }
 
 function formatActivitiesSimple(activities) {
@@ -153,7 +159,7 @@ async function summarizeWithAI(activities) {
           {
             role: "system",
             content:
-              "直接总结最近的工作，用 3-5 个要点。每个要点包含：emoji + 具体做了什么（提到仓库名、PR/Issue 号、commit 内容等关键信息）。不要用第三人称，不要说「以下是」。要具体，不要笼统。",
+              "直接总结最近的工作，用 3-5 个要点。每个要点必须单独一行，格式：emoji + 空格 + 具体内容。要点之间用换行分隔。提到仓库名、PR/Issue 号、commit 内容等关键信息。不要用第三人称，不要说「以下是」。",
           },
           { role: "user", content: activityText },
         ],
