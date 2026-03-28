@@ -176,6 +176,54 @@ async function summarizeWithAI(activities) {
   return formatActivitiesSimple(activities);
 }
 
+async function generateDailyInsight(stats, activities) {
+  const apiKey = process.env.AI_API_KEY;
+  const apiUrl =
+    process.env.AI_API_URL || "https://api.openai.com/v1/chat/completions";
+  const model = process.env.AI_MODEL || "gpt-3.5-turbo";
+
+  if (!apiKey) {
+    const insights = [
+      "💡 Keep coding, keep learning!",
+      "🚀 Every commit is a step forward.",
+      "✨ Building the future, one line at a time.",
+      "🎯 Focus on progress, not perfection.",
+      "🔥 Stay curious, stay creative."
+    ];
+    return insights[new Date().getDate() % insights.length];
+  }
+
+  const context = `统计: ${stats?.repos || 0} 个仓库, ${stats?.stars || 0} 个星标, 最常用语言 ${stats?.topLanguage || 'Unknown'}. 最近活跃在 ${activities.slice(0, 3).map(e => e.repo.name).join(', ')}.`;
+
+  try {
+    const response = await fetch(apiUrl, {
+      method: "POST",
+      headers: {
+        Authorization: `Bearer ${apiKey}`,
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        model: model,
+        messages: [
+          {
+            role: "system",
+            content: "生成一句简短有趣的技术洞察或鼓励语（15-25字），可以结合开发者的数据。要有创意，不要太正式。用 emoji 开头。"
+          },
+          { role: "user", content: context }
+        ],
+        max_tokens: 100
+      })
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      return data.choices[0].message.content;
+    }
+  } catch {}
+
+  return "💡 Keep coding, keep learning!";
+}
+
 async function updateReadme() {
   let content = fs.readFileSync("README.md", "utf-8");
 
@@ -186,19 +234,14 @@ async function updateReadme() {
   });
   content = content.replace(
     /!\[Last Updated\]\(https:\/\/img\.shields\.io\/badge\/Last%20Updated-[^)]+\)/,
-    `![Last Updated](https://img.shields.io/badge/Last%20Updated-${today.replace(" ", "%20")}-blue?style=for-the-badge)`,
+    `![Last Updated](https://img.shields.io/badge/Last%20Updated-${today.replace(" ", "%20")}-58A6FF?style=flat-square)`,
   );
 
-  // 更新活动
+  // 获取数据
   const activities = await getGithubActivity();
-  const summary = await summarizeWithAI(activities);
-  content = content.replace(
-    /<!-- ACTIVITY_START -->[\s\S]*?<!-- ACTIVITY_END -->/,
-    `<!-- ACTIVITY_START -->\n${summary}\n<!-- ACTIVITY_END -->`,
-  );
+  const stats = await getGithubStats();
 
   // 更新统计数据
-  const stats = await getGithubStats();
   if (stats) {
     const statsText = `📊 ${stats.repos} repos · ⭐ ${stats.stars} stars · 👥 ${stats.followers} followers · 💻 Top: ${stats.topLanguage}`;
     content = content.replace(
@@ -206,6 +249,20 @@ async function updateReadme() {
       `<!-- STATS_START -->\n${statsText}\n<!-- STATS_END -->`,
     );
   }
+
+  // 更新活动
+  const summary = await summarizeWithAI(activities);
+  content = content.replace(
+    /<!-- ACTIVITY_START -->[\s\S]*?<!-- ACTIVITY_END -->/,
+    `<!-- ACTIVITY_START -->\n${summary}\n<!-- ACTIVITY_END -->`,
+  );
+
+  // 更新每日洞察
+  const insight = await generateDailyInsight(stats, activities);
+  content = content.replace(
+    /<!-- AI_INSIGHT_START -->[\s\S]*?<!-- AI_INSIGHT_END -->/,
+    `<!-- AI_INSIGHT_START -->\n> ${insight}\n<!-- AI_INSIGHT_END -->`,
+  );
 
   fs.writeFileSync("README.md", content, "utf-8");
 }
