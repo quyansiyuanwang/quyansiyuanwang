@@ -169,7 +169,10 @@ async function summarizeWithAI(activities) {
 
     if (response.ok) {
       const data = await response.json();
-      return data.choices[0].message.content;
+      let result = data.choices[0].message.content;
+      // 在所有 emoji 前添加换行（匹配 Unicode emoji 范围）
+      result = result.replace(/([\u{1F300}-\u{1F9FF}])/gu, '\n$1').trim();
+      return result;
     }
   } catch {}
   console.log("AI summarization failed, using simple format.");
