@@ -107,7 +107,7 @@ function extractDetailedActivities(activities) {
       details.push(`[${date}] 审查 PR 在 ${repo}`);
     }
   }
-
+  console.log("[DEBUG] Detailed activities:", details);
   return details.slice(0, 40);
 }
 
