@@ -42,10 +42,38 @@ async function getGithubStats(username = 'quyansiyuanwang') {
 async function getGithubActivity(username = 'quyansiyuanwang') {
   try {
     const events = await httpsGet(`https://api.github.com/users/${username}/events/public`);
-    return events.slice(0, 10);
+    return events.slice(0, 20);
   } catch {
     return [];
   }
+}
+
+function extractDetailedActivities(activities) {
+  const details = [];
+
+  for (const event of activities) {
+    const repo = event.repo.name;
+    const date = new Date(event.created_at).toLocaleDateString('zh-CN');
+
+    if (event.type === 'PushEvent') {
+      const commits = event.payload.commits || [];
+      commits.forEach(commit => {
+        details.push(`[${date}] 提交到 ${repo}: ${commit.message}`);
+      });
+    } else if (event.type === 'PullRequestEvent') {
+      const pr = event.payload.pull_request;
+      details.push(`[${date}] ${event.payload.action} PR #${pr.number} 在 ${repo}: ${pr.title}`);
+    } else if (event.type === 'IssuesEvent') {
+      const issue = event.payload.issue;
+      details.push(`[${date}] ${event.payload.action} Issue #${issue.number} 在 ${repo}: ${issue.title}`);
+    } else if (event.type === 'CreateEvent') {
+      details.push(`[${date}] 创建 ${event.payload.ref_type} 在 ${repo}`);
+    } else if (event.type === 'IssueCommentEvent') {
+      details.push(`[${date}] 评论 Issue 在 ${repo}`);
+    }
+  }
+
+  return details.slice(0, 15);
 }
 
 function formatActivitiesSimple(activities) {
@@ -63,25 +91,32 @@ function formatActivitiesSimple(activities) {
 }
 
 async function summarizeWithAI(activities) {
-  const apiKey = process.env.OPENAI_API_KEY;
+  const apiKey = process.env.AI_API_KEY;
+  const apiUrl = process.env.AI_API_URL || 'https://api.openai.com/v1/chat/completions';
+  const model = process.env.AI_MODEL || 'gpt-3.5-turbo';
+
   if (!apiKey) return formatActivitiesSimple(activities);
 
-  const activityText = activities.map(e => `- ${e.type}: ${e.repo.name}`).join('\n');
+  const details = extractDetailedActivities(activities);
+  const activityText = details.join('\n');
 
   try {
-    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+    const response = await fetch(apiUrl, {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({
-        model: 'gpt-3.5-turbo',
+        model: model,
         messages: [
-          { role: 'system', content: '你是一个技术博客助手，用简洁专业的中文总结开发者的 GitHub 活动，3-5句话即可。' },
+          {
+            role: 'system',
+            content: '你是一个技术总结助手。根据开发者的 GitHub 活动，用简洁专业的中文总结他最近在做什么、做了哪些贡献。重点关注：1) 主要工作的项目 2) 提交的功能或修复 3) 参与的协作。用 3-5 个要点列出，每个要点一行，使用 emoji 开头。'
+          },
           { role: 'user', content: `总结这些活动:\n${activityText}` }
         ],
-        max_tokens: 200
+        max_tokens: 300
       })
     });
 

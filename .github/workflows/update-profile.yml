@@ -20,7 +20,9 @@ jobs:
 
       - name: Update README
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          AI_API_KEY: ${{ secrets.AI_API_KEY }}
+          AI_API_URL: ${{ secrets.AI_API_URL }}
+          AI_MODEL: ${{ secrets.AI_MODEL }}
         run: node .github/scripts/update_readme.js
 
       - name: Commit changes
