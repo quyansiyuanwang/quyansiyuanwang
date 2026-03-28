@@ -68,27 +68,47 @@ function extractDetailedActivities(activities) {
 
     if (event.type === "PushEvent") {
       const commits = event.payload.commits || [];
+      const commitCount = commits.length;
       commits.forEach((commit) => {
         details.push(`[${date}] 提交到 ${repo}: ${commit.message}`);
       });
+      if (commitCount > 1) {
+        details.push(`  └─ 共 ${commitCount} 个提交`);
+      }
     } else if (event.type === "PullRequestEvent") {
       const pr = event.payload.pull_request;
+      const action = event.payload.action === 'opened' ? '创建' :
+                     event.payload.action === 'closed' ? (pr.merged ? '合并' : '关闭') :
+                     event.payload.action;
       details.push(
-        `[${date}] ${event.payload.action} PR #${pr.number} 在 ${repo}: ${pr.title}`,
+        `[${date}] ${action} PR #${pr.number} 在 ${repo}: ${pr.title}`
       );
+      if (pr.body && pr.body.length > 0) {
+        details.push(`  └─ 说明: ${pr.body.slice(0, 100)}`);
+      }
     } else if (event.type === "IssuesEvent") {
       const issue = event.payload.issue;
+      const action = event.payload.action === 'opened' ? '创建' :
+                     event.payload.action === 'closed' ? '关闭' :
+                     event.payload.action;
       details.push(
-        `[${date}] ${event.payload.action} Issue #${issue.number} 在 ${repo}: ${issue.title}`,
+        `[${date}] ${action} Issue #${issue.number} 在 ${repo}: ${issue.title}`
       );
     } else if (event.type === "CreateEvent") {
-      details.push(`[${date}] 创建 ${event.payload.ref_type} 在 ${repo}`);
+      const refType = event.payload.ref_type === 'branch' ? '分支' :
+                      event.payload.ref_type === 'tag' ? '标签' :
+                      event.payload.ref_type;
+      const ref = event.payload.ref || '';
+      details.push(`[${date}] 创建${refType} ${ref} 在 ${repo}`);
     } else if (event.type === "IssueCommentEvent") {
-      details.push(`[${date}] 评论 Issue 在 ${repo}`);
+      const comment = event.payload.comment.body.slice(0, 80);
+      details.push(`[${date}] 评论 Issue 在 ${repo}: ${comment}`);
+    } else if (event.type === "PullRequestReviewEvent") {
+      details.push(`[${date}] 审查 PR 在 ${repo}`);
     }
   }
 
-  return details.slice(0, 15);
+  return details.slice(0, 40);
 }
 
 function formatActivitiesSimple(activities) {
@@ -133,9 +153,9 @@ async function summarizeWithAI(activities) {
           {
             role: "system",
             content:
-              "你是一个技术总结助手。根据开发者的 GitHub 活动，用简洁专业的中文总结他最近在做什么、做了哪些贡献。重点关注：1) 主要工作的项目 2) 提交的功能或修复 3) 参与的协作。用 3-5 个要点列出，每个要点一行，使用 emoji 开头。",
+              "直接总结最近的工作，用 3-5 个要点。每个要点包含：emoji + 具体做了什么（提到仓库名、PR/Issue 号、commit 内容等关键信息）。不要用第三人称，不要说「以下是」。要具体，不要笼统。",
           },
-          { role: "user", content: `总结这些活动:\n${activityText}` },
+          { role: "user", content: activityText },
         ],
         max_tokens: 300,
       }),
