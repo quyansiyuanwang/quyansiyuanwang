@@ -60,14 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 合并了 ZOOT-Plus/zoot-plus-frontend 仓库的 PR #549  
+🎯 合并了 ZOOT-Plus/zoot-plus-frontend 仓库的 PR #549。
 
-💬 在 Issue #549 中回复，表示接受反馈并等待进一步意见  
+💬 在 Issue #549 中回复，确认完成修改并等待进一步反馈。
 
-📝 在 Issue #549 中提供实现效果图和说明，并修复排版问题  
-✨ 创建了 ZOOT-Plus/zoot-plus-frontend 仓库的 PR #550  
+📝 在 ZOOT-Plus/zoot-plus-frontend 仓库创建了新的 PR #550。
 
-🌿 在个人仓库创建了 chore 分支
+🌿 创建了 `chore` 分支用于后续开发工作。
 <!-- ACTIVITY_END -->
 
 ---
