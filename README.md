@@ -52,7 +52,7 @@ const developer = {
 ## 📊 GitHub Stats
 
 <!-- STATS_START -->
-📊 33 repos · ⭐ 14 stars · 👥 11 followers · 💻 Top: Python
+📊 33 repos · ⭐ 14 stars · 👥 12 followers · 💻 Top: Python
 <!-- STATS_END -->
 
 ---
@@ -60,13 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🎯 合并了 ZOOT-Plus/zoot-plus-frontend 仓库的 PR #549。
+🚀 合并了 PR #549 到 ZOOT-Plus/zoot-plus-frontend 仓库
 
-💬 在 Issue #549 中回复，确认完成修改并等待进一步反馈。
+💬 在 Issue #549 中回复，表示已根据反馈完成修改，可以等待进一步意见
 
-📝 在 ZOOT-Plus/zoot-plus-frontend 仓库创建了新的 PR #550。
+🎨 根据 Issue #549 的反馈，优化了卡片主题适配和响应式布局
 
-🌿 创建了 `chore` 分支用于后续开发工作。
+📝 在 PR #550 中提交了新的更改
+
+🌿 创建了 chore 分支以进行后续工作
 <!-- ACTIVITY_END -->
 
 ---
@@ -96,7 +98,7 @@ const developer = {
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=quyansiyuanwang&color=58A6FF&style=flat-square)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-March%202026-58A6FF?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-April%202026-58A6FF?style=flat-square)
 
 ⭐️ From [quyansiyuanwang](https://github.com/quyansiyuanwang)
 
