@@ -60,14 +60,21 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 合并了 PR #549 到 ZOOT-Plus/zoot-plus-frontend 仓库
+🔀 合并了 ZOOT-Plus/zoot-plus-frontend 仓库的 PR #549
 
-💬 在 Issue #549 中回复，表示代码已定稿，可接受进一步修改意见
+💬 在 Issue #549 中回复，表示已根据反馈完成修改，可以等待其他意见
 
-📝 在 Issue #549 中根据反馈，计划优化卡片主题适配、响应式布局和交互形式
+💬 在 Issue #549 中回复，提供了关于卡片主题适配、响应式布局和交互方式的改进建议
 
-🖼️ 在 Issue #549 中分享了实现效果图，并提及存在排版问题需修复
-✨ 创建了新的 PR #550 和分支 `chore`，继续在 ZOOT-Plus/zoot-plus-frontend 仓库进行开发
+🖼️ 在 Issue #549 中分享了功能实现的效果图
+
+🔧 在 Issue #549 中说明发现并正在修复排版问题
+
+📝 创建了 ZOOT-Plus/zoot-plus-frontend 仓库的 PR #550
+
+🌿 在个人仓库创建了 `chore` 分支
+
+📝 创建了 ZOOT-Plus/zoot-plus-frontend 仓库的 PR #549
 <!-- ACTIVITY_END -->
 
 ---
