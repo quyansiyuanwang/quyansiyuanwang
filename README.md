@@ -60,18 +60,18 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔀 合并了 ZOOT-Plus/zoot-plus-frontend 仓库的 PR #549
+🎯 合并了 PR #549 到 ZOOT-Plus/zoot-plus-frontend 仓库  
 
-💬 在 Issue #549 中回复，确认 PR 内容已完善，等待其他反馈
+💬 在 Issue #549 中回复了关于 PR 的最终确认，表示可以接受当前版本  
 
-📝 在 Issue #549 中回复，根据反馈提出了卡片主题适配、响应式布局和回车式导航三项改进建议
+📝 在 Issue #549 中收到了关于卡片主题适配、响应式布局和交互改进的详细反馈  
 
-🖼️ 在 Issue #549 中提交了效果图，并提到存在排版问题需要修复
-✨ 在 ZOOT-Plus/zoot-plus-frontend 仓库创建了新的 PR #550
+🖼️ 在 Issue #549 中分享了实现的效果图，并提到了需要修复排版问题  
+✨ 创建了新的 PR #550 到 ZOOT-Plus/zoot-plus-frontend 仓库  
 
-🌿 在个人仓库创建了 `chore` 分支
+🌿 在个人仓库 quyansiyuanwang/zoot-plus-frontend 创建了 chore 分支  
 
-📌 在 ZOOT-Plus/zoot-plus-frontend 仓库创建了 PR #549
+🚀 创建了初始 PR #549 到 ZOOT-Plus/zoot-plus-frontend 仓库
 <!-- ACTIVITY_END -->
 
 ---
