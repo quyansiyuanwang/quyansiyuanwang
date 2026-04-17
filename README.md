@@ -52,7 +52,7 @@ const developer = {
 ## 📊 GitHub Stats
 
 <!-- STATS_START -->
-📊 33 repos · ⭐ 14 stars · 👥 12 followers · 💻 Top: Python
+📊 33 repos · ⭐ 12 stars · 👥 11 followers · 💻 Top: Python
 <!-- STATS_END -->
 
 ---
@@ -60,18 +60,19 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 合并了 ZOOT-Plus/zoot-plus-frontend 仓库的 PR #549  
+🔧 合并了 PR #549 到 ZOOT-Plus/zoot-plus-frontend 仓库  
 
-💬 在 Issue #549 中回复，表示已根据反馈完成修改，等待进一步意见  
+💬 在 Issue #549 中回复，表示对修改的最终确认  
 
-🎨 在 Issue #549 中收到关于卡片主题适配、响应式布局和交互优化的详细反馈  
+📝 根据反馈，在 Issue #549 中讨论了卡片主题适配、响应式布局和回车式箭头等改进点  
 
-📸 在 Issue #549 中分享了 PR 的效果图并提及修复排版问题  
-🆕 创建了 ZOOT-Plus/zoot-plus-frontend 仓库的 PR #550  
+🖼️ 在 Issue #549 中分享了效果图并提到修复排版问题  
 
-🌿 在个人仓库创建了 `chore` 分支  
+📦 创建了 PR #550 到 ZOOT-Plus/zoot-plus-frontend 仓库  
 
-📝 创建了 ZOOT-Plus/zoot-plus-frontend 仓库的初始 PR #549
+🌿 在 quyansiyuanwang/zoot-plus-frontend 创建了 chore 分支  
+
+📄 创建了 PR #549 到 ZOOT-Plus/zoot-plus-frontend 仓库
 <!-- ACTIVITY_END -->
 
 ---
