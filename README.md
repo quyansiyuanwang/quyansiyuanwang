@@ -60,14 +60,12 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 仓库的 PR #2 和 PR #1  
+🔍 审查了 quyansiyuanwang/Quyan-StaticSite 仓库的 PR #2 和 PR #1。
+✅ 合并了 ZOOT-Plus/zoot-plus-frontend 仓库的 PR #549。
 
-💬 在 ZOOT-Plus/zoot-plus-frontend 仓库的 Issue #549 中进行了多次评论，讨论了卡片主题适配、响应式布局等改进点  
-✅ 合并了 ZOOT-Plus/zoot-plus-frontend 仓库的 PR #549  
+💬 在 ZOOT-Plus/zoot-plus-frontend 仓库的 Issue #549 中进行了评论，提供了关于卡片主题适配、响应式布局和交互设计的改进建议。
 
-🖼️ 在 Issue #549 中分享了效果图并提到了修复排版问题  
-
-📝 确认了对 Issue #549 的最终意见，表示可以暂不修改，等待其他反馈
+🤝 在同一个 Issue #549 中回复了协作意愿，表示可以随时根据他人意见进行调整。
 <!-- ACTIVITY_END -->
 
 ---
