@@ -52,7 +52,7 @@ const developer = {
 ## 📊 GitHub Stats
 
 <!-- STATS_START -->
-📊 34 repos · ⭐ 13 stars · 👥 11 followers · 💻 Top: Python
+📊 34 repos · ⭐ 18 stars · 👥 12 followers · 💻 Top: Python
 <!-- STATS_END -->
 
 ---
@@ -60,12 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 仓库的 PR #2 和 PR #1。
-✅ 合并了 ZOOT-Plus/zoot-plus-frontend 仓库的 PR #549。
+🚧 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #2
 
-💬 在 ZOOT-Plus/zoot-plus-frontend 仓库的 Issue #549 中进行了评论，提供了关于卡片主题适配、响应式布局和交互设计的改进建议。
 
-🤝 在同一个 Issue #549 中回复了协作意愿，表示可以随时根据他人意见进行调整。
+🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #1
+
+✅ 合并了 ZOOT-Plus/zoot-plus-frontend 的 PR #549
+
+
+💬 在 ZOOT-Plus/zoot-plus-frontend 的 Issue #549 中回复，表示当前无需改动、可后续再调整
 <!-- ACTIVITY_END -->
 
 ---
