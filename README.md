@@ -60,15 +60,12 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚧 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #2
+🔍 审查了 `quyansiyuanwang/Quyan-StaticSite` 的 PR #2，并提出反馈意见  
+✅ 审查了 `quyansiyuanwang/Quyan-StaticSite` 的 PR #1，完成代码检视  
 
+🔀 合入了 `ZOOT-Plus/zoot-plus-frontend` 的 PR #549，确认无额外修改需求  
 
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #1
-
-✅ 合并了 ZOOT-Plus/zoot-plus-frontend 的 PR #549
-
-
-💬 在 ZOOT-Plus/zoot-plus-frontend 的 Issue #549 中回复，表示当前无需改动、可后续再调整
+💬 在 `ZOOT-Plus/zoot-plus-frontend` 的 Issue #549 中回复，表示当前改动可暂不调整，可应后续意见再修改
 <!-- ACTIVITY_END -->
 
 ---
