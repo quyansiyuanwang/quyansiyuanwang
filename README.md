@@ -60,17 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 `quyansiyuanwang/Quyan-StaticSite` 仓库的 PR #2，聚焦代码风格和逻辑一致性。
+🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #3，主要关注代码合规性与功能逻辑。
 
 
-🛠️ 处理了 `quyansiyuanwang/Quyan-StaticSite` 仓库的 PR #1，主要涉及初始结构中的文档链接修正。
-
-✅ 指出 PR #2 中一段对 URL 参数的处理使用了 `encodeURIComponent`，但建议改为更安全的 ES6 方法以兼容旧引擎。
+🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #2，确保修改符合项目风格和预期行为。
 
 
-📝 在 PR #1 审查中发现了一个拼写错误：`configration` 应修正为 `configuration`，并提出了对应的 commit 建议。
-
-⚡ 建议 PR #2 增加单元测试覆盖新增的静态资源路径生成逻辑，以防止未来改动破坏路由。
+🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #1，验证了新增特性与现有架构的兼容性。
 <!-- ACTIVITY_END -->
 
 ---
