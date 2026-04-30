@@ -60,10 +60,12 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📝 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #3。  
+🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #3，重点关注代码逻辑和样式一致性  
 
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #2。  
-✅ 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #1。
+📝 向 quyansiyuanwang/Quyan-StaticSite 提交 PR #2 的审查意见，强调性能优化和错误处理细节  
+
+🐛 在 quyansiyuanwang/Quyan-StaticSite 的 PR #1 中发现多处格式问题，建议统一缩进和命名规范  
+⚡ 针对每个 PR 的 commit 内容，给出具体修改建议以提升网站加载速度和维护性
 <!-- ACTIVITY_END -->
 
 ---
