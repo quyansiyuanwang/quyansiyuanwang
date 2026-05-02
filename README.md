@@ -60,10 +60,12 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #3，主要关注静态站点生成逻辑的改动。
+🔍 审查了 PR #1、#2、#3 在 quyansiyuanwang/Quyan-StaticSite 仓库，确认所有变更无逻辑错误且符合项目规范。  
 
-📝 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #2，重点验证了文件路径处理部分的代码。
-✅ 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #1，确认了初始模板结构与配置文件的合理性。
+📝 针对 PR #1 给出的修改建议，重点涉及资源引用路径和样式兼容性调整。  
+
+🛠 在 PR #2 的审查中，检查了脚本执行顺序和无用依赖清理，提出了移除冗余代码的具体方案。  
+⚡ 对 PR #3 的构建配置变更进行验证，确认不会破坏现有页面生成流程。
 <!-- ACTIVITY_END -->
 
 ---
