@@ -60,11 +60,11 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #3，主要关注代码逻辑和样式一致性。  
+🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #3，针对代码结构与逻辑提出改进建议。  
 
-🔍 审查了同仓库的 PR #2，评估了性能优化方案的可维护性。  
+📝 审查了同一仓库的 PR #2，重点关注功能实现与异常处理细节。  
 
-🔍 审查了 PR #1，检查了初始功能实现的完整性和潜在缺陷。
+🐛 完成对 PR #1 的审查，指出潜在的兼容性问题与文档补充需求。
 <!-- ACTIVITY_END -->
 
 ---
