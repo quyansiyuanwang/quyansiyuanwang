@@ -60,11 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #3，主要对代码逻辑和文档进行了校对
+🔍 审查了 `quyansiyuanwang/Quyan-StaticSite` 仓库的 PR #1、#2 和 #3，主要集中在代码规范、功能逻辑和文档完整性方面。  
 
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #2，关注了功能实现的完整性和潜在问题
+🛠️ 对 PR #3 提出了重构建议，涉及静态资源加载路径优化和减少不必要的重复配置。  
 
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #1，评估了项目初始代码的结构和规范
+📝 在 PR #2 的 Review 中指出了 HTML 标签闭合错误，并建议统一使用相对路径链接外部资源。  
+✅ 确认 PR #1 的改动符合项目结构约定，测试无误后已批准合并。  
+
+📦 通过持续审查确保了仓库的三次提交代码风格一致，无遗留兼容性问题。
 <!-- ACTIVITY_END -->
 
 ---
