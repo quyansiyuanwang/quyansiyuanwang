@@ -52,7 +52,7 @@ const developer = {
 ## 📊 GitHub Stats
 
 <!-- STATS_START -->
-📊 34 repos · ⭐ 18 stars · 👥 12 followers · 💻 Top: Python
+📊 34 repos · ⭐ 18 stars · 👥 13 followers · 💻 Top: Python
 <!-- STATS_END -->
 
 ---
@@ -60,14 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 `quyansiyuanwang/Quyan-StaticSite` 仓库的 PR #1、#2 和 #3，主要集中在代码规范、功能逻辑和文档完整性方面。  
+🔍 审查了 `quyansiyuanwang/Quyan-StaticSite` 仓库的 PR #1、#2 和 #3，确认代码风格和功能实现符合预期。  
 
-🛠️ 对 PR #3 提出了重构建议，涉及静态资源加载路径优化和减少不必要的重复配置。  
+📋 在 PR #1 中，建议优化配置文件加载逻辑，改为使用环境变量而非硬编码路径。  
 
-📝 在 PR #2 的 Review 中指出了 HTML 标签闭合错误，并建议统一使用相对路径链接外部资源。  
-✅ 确认 PR #1 的改动符合项目结构约定，测试无误后已批准合并。  
+🔄 针对 PR #2，发现并修复了静态资源缓存头缺失的问题，提升了站点加载性能。  
 
-📦 通过持续审查确保了仓库的三次提交代码风格一致，无遗留兼容性问题。
+🧪 对 PR #3 的自动化测试脚本进行了回归验证，确保所有单元测试通过。
 <!-- ACTIVITY_END -->
 
 ---
