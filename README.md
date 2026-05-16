@@ -60,13 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 `quyansiyuanwang/Quyan-StaticSite` 仓库的 PR #1、#2 和 #3，确认代码风格和功能实现符合预期。  
+🔍 审查了 `quyansiyuanwang/Quyan-StaticSite` 的 PR #1、#2、#3 的代码变更。  
 
-📋 在 PR #1 中，建议优化配置文件加载逻辑，改为使用环境变量而非硬编码路径。  
+📝 在 PR #3 中发现了配置文件格式问题，建议调整 YAML 缩进和无效字段。  
 
-🔄 针对 PR #2，发现并修复了静态资源缓存头缺失的问题，提升了站点加载性能。  
+🛠️ 在 PR #2 中指出了 CSS 选择器冗余，推荐统一用 `class` 替代 `id` 提高复用性。  
 
-🧪 对 PR #3 的自动化测试脚本进行了回归验证，确保所有单元测试通过。
+💡 在 PR #1 中评论了文档路径硬编码问题，建议改为相对路径或环境变量。  
+✅ 三个 PR 均给出具体修改建议，待提交者更新后再次审核。
 <!-- ACTIVITY_END -->
 
 ---
