@@ -60,14 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 `quyansiyuanwang/Quyan-StaticSite` 的 PR #1、#2、#3 的代码变更。  
+🔍 审查了 PR #1、#2、#3 在仓库 quyansiyuanwang/Quyan-StaticSite 的功能实现与代码规范  
 
-📝 在 PR #3 中发现了配置文件格式问题，建议调整 YAML 缩进和无效字段。  
+🛠 发现 PR #1 中静态资源路径未统一，建议改为相对路径避免部署后失效  
 
-🛠️ 在 PR #2 中指出了 CSS 选择器冗余，推荐统一用 `class` 替代 `id` 提高复用性。  
-
-💡 在 PR #1 中评论了文档路径硬编码问题，建议改为相对路径或环境变量。  
-✅ 三个 PR 均给出具体修改建议，待提交者更新后再次审核。
+📝 在 PR #2 中指出了 HTML 语义化标签使用问题，建议用 `<main>` 替代无意义 `<div>`  
+⚙️ PR #3 的构建脚本存在未处理错误状态，建议增加 `set -e` 确保异常中断  
+✅ 三个 PR 均已完成代码审查并提交了具体修改建议
 <!-- ACTIVITY_END -->
 
 ---
