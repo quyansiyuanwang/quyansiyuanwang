@@ -60,13 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 PR #1、#2、#3 在仓库 quyansiyuanwang/Quyan-StaticSite 的功能实现与代码规范  
+🔍 审查了 `quyansiyuanwang/Quyan-StaticSite` 的 PR #1，主要关注代码风格和结构规范。
 
-🛠 发现 PR #1 中静态资源路径未统一，建议改为相对路径避免部署后失效  
 
-📝 在 PR #2 中指出了 HTML 语义化标签使用问题，建议用 `<main>` 替代无意义 `<div>`  
-⚙️ PR #3 的构建脚本存在未处理错误状态，建议增加 `set -e` 确保异常中断  
-✅ 三个 PR 均已完成代码审查并提交了具体修改建议
+🔍 审查了 PR #2 在该仓库中，重点检查了功能实现是否符合设计要求。
+
+
+🔍 审查了 PR #3，评估了变更内容的测试覆盖与文档同步情况。
 <!-- ACTIVITY_END -->
 
 ---
