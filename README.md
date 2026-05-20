@@ -60,13 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #3，重点检查代码逻辑和错误处理。  
+🔍 审查了 quyansiyuanwang/Quyan-StaticSite 中的 PR #3、#2 和 #1  
 
-📝 审查了 PR #2，主要关注样式兼容性和构建配置。  
+📋 针对 PR #3 提出了代码结构和潜在逻辑问题的修改建议  
 
-🛠️ 审查了 PR #1，确认了基础功能实现和目录结构合理。  
+🔄 在 PR #2 中指出了模板渲染流程中的不一致性问题，并建议优化  
 
-💡 为每个 PR 提供了具体修改建议，涉及性能优化和代码规范改进。
+🐛 对 PR #1 进行了完整审查，识别并反馈了输入校验的缺失  
+✏️ 为每个 PR 提供了具体的 commit 级修改意见，确保代码质量与项目规范对齐
 <!-- ACTIVITY_END -->
 
 ---
