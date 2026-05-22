@@ -60,16 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 仓库的 PR #3，重点评估了代码变更的合规性与逻辑一致性。
+🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #3，确认其主题为修复导航栏样式问题
 
+💬 发现 PR #3 中添加的 CSS 行缺少必要的 `!important` 声明，可能与其他样式冲突
 
-📬 审查了同仓库的 PR #2，针对提交内容提出了修改建议和确认需求。
+📝 建议将 `color` 属性值的重写方式从直接覆盖改为使用 `!important` 以确保生效
+✅ 已要求作者在提交前补充测试用例，验证导航栏在不同浏览器下的兼容性
 
-
-📝 在 PR #2 的 review 中，指出了函数命名与现有风格不一致的问题，并建议统一单元测试覆盖范围。
-
-
-🔄 针对两个 PR 的变更，确认了整体分支结构稳定，未引入明显冲突或破坏性改动。
+🔄 待作者修改后，我会再次检查 PR #3 的更新版本
 <!-- ACTIVITY_END -->
 
 ---
