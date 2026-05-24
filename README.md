@@ -60,14 +60,18 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #3，检查代码变更与项目目标一致性  
+🐛 审查 PR #4 在 quyansiyuanwang/Quyan-StaticSite，重点检查了静态页面渲染逻辑和配置文件兼容性，发现了潜在路径错误。
 
-💡 反馈了关于配置文件中路径硬编码的问题，建议使用环境变量或常量  
 
-📝 在评论中指出了 CSS 类名不一致，需要对齐设计稿规范  
-✅ 确认了新增的页面模板功能，但提出缺少单元测试的覆盖  
+📝 审查 PR #3 在 quyansiyuanwang/Quyan-StaticSite，关注点包括模板参数传递和构建流程优化，确认无语法问题。
 
-🔄 建议将静态资源路径改为相对路径，避免部署时出现问题
+
+🔧 在 PR #4 中建议修改一处 URL 拼接方式以避免空路径时的越界异常，并注释了相关 commit 内容。
+
+✅ PR #3 的改动较小，仅涉及变量命名规范，已直接批准合并申请。
+
+
+📌 两个 PR 均涉及站点生成器配置更新，确保与现有部署脚本兼容，未发现遗漏更新文档的地方。
 <!-- ACTIVITY_END -->
 
 ---
