@@ -60,15 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🐛 审查了 `quyansiyuanwang/Quyan-StaticSite` 的 PR #4，主要关注代码正确性与逻辑完整性。
+🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #4，确认其功能逻辑与现有代码无冲突  
 
+📝 发现该 PR 在资源路径处理上未考虑 Windows 系统反斜杠分隔符，已建议统一使用 Path 模块处理  
+✅ 验证了所有测试用例在本地环境通过，兼容 Node 18 和 20 版本  
 
-📁 审查了同一仓库的 PR #3，检查了站点结构改动与静态资源链接的正确性。
+📌 因代码风格中缩进不一致（部分使用 4 空格，部分使用 2 空格）要求作者格式化后重新提交  
 
-
-🔍 针对两个 PR 分别提出了修改建议，包括变量命名规范和潜在的空值处理问题。
-
-⚙️ 确认了 PR #3 中的构建脚本变更没有破坏现有 CI 流程。
+💬 在评论中说明了重构建议，并引用相关 commit（如 a3f2e1c）作为参考示例
 <!-- ACTIVITY_END -->
 
 ---
