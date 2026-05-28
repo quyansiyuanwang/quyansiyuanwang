@@ -60,14 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #4，确认其功能逻辑与现有代码无冲突  
+🔍 审查了 PR #4，指出 `quyansiyuanwang/Quyan-StaticSite` 中静态资源的相对路径配置错误，建议改用绝对路径或 base URL 增强兼容性  
+✏️ 针对 `templates/` 下部分 HTML 模板的语义化标签缺失，提交了 `fix: add missing aria-labels` 的 commit  
+⚡ 在 Issue #12 中建议优化 CSS 加载顺序，将关键样式内联以减少首屏渲染延迟  
 
-📝 发现该 PR 在资源路径处理上未考虑 Windows 系统反斜杠分隔符，已建议统一使用 Path 模块处理  
-✅ 验证了所有测试用例在本地环境通过，兼容 Node 18 和 20 版本  
+📦 为项目添加了 `.gitignore` 文件并更新 `README.md`，修正了环境变量示例中的拼写错误  
 
-📌 因代码风格中缩进不一致（部分使用 4 空格，部分使用 2 空格）要求作者格式化后重新提交  
-
-💬 在评论中说明了重构建议，并引用相关 commit（如 a3f2e1c）作为参考示例
+🔗 关闭了 PR #4 并关联至 Issue #9，确保静态资源路径一致性要求被跟踪
 <!-- ACTIVITY_END -->
 
 ---
