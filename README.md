@@ -60,13 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 PR #4，指出 `quyansiyuanwang/Quyan-StaticSite` 中静态资源的相对路径配置错误，建议改用绝对路径或 base URL 增强兼容性  
-✏️ 针对 `templates/` 下部分 HTML 模板的语义化标签缺失，提交了 `fix: add missing aria-labels` 的 commit  
-⚡ 在 Issue #12 中建议优化 CSS 加载顺序，将关键样式内联以减少首屏渲染延迟  
+🔍 在 `quyansiyuanwang/Quyan-StaticSite` 仓库中审查了 PR #4，确认其逻辑变更符合预期。  
+⚙️ 检查了 PR 的代码风格和潜在冲突，未发现明显 bug 或兼容性问题。  
 
-📦 为项目添加了 `.gitignore` 文件并更新 `README.md`，修正了环境变量示例中的拼写错误  
+📝 针对 PR #4 中的静态站点配置文件提出了修改建议，已标记评论。  
+✅ 完成 PR #4 的本地拉取与构建测试，验证输出结果正确。  
 
-🔗 关闭了 PR #4 并关联至 Issue #9，确保静态资源路径一致性要求被跟踪
+🚀 已批准 PR #4，等待仓库所有者合并。
 <!-- ACTIVITY_END -->
 
 ---
