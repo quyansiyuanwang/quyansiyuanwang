@@ -60,10 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #4，确认代码变更逻辑正确，无引入新错误。  
+🔍 审查了 PR #4 的代码变更，确认没有明显逻辑错误或安全问题  
 
-📝 针对 PR #4 的命名规范和小型样式问题提供了修改建议。  
-✅ 建议被采纳，已通过 PR #4 合并到主分支。
+📦 在本地测试了构建流程，quyansiyuanwang/Quyan-StaticSite 能正常生成静态页面  
+✏️ 建议优化 README 中的路径说明，避免新用户部署时混淆  
+
+🔄 要求提交者在 PR 描述中补充改动目的和测试截图  
+
+📌 合并请求待补充说明后批准，计划明天处理后续
 <!-- ACTIVITY_END -->
 
 ---
@@ -93,7 +97,7 @@ const developer = {
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=quyansiyuanwang&color=58A6FF&style=flat-square)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-May%202026-58A6FF?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-June%202026-58A6FF?style=flat-square)
 
 ⭐️ From [quyansiyuanwang](https://github.com/quyansiyuanwang)
 
