@@ -60,14 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 PR #4 的代码变更，确认没有明显逻辑错误或安全问题  
+🛠️ 审查了 PR #4 在 `quyansiyuanwang/Quyan-StaticSite`，发现代码风格不一致并建议调整。
 
-📦 在本地测试了构建流程，quyansiyuanwang/Quyan-StaticSite 能正常生成静态页面  
-✏️ 建议优化 README 中的路径说明，避免新用户部署时混淆  
 
-🔄 要求提交者在 PR 描述中补充改动目的和测试截图  
+🔍 指出了模板渲染逻辑中缺少对空值的处理，提交了改进建议。
 
-📌 合并请求待补充说明后批准，计划明天处理后续
+
+📝 修复了 `index.html` 中的一处拼写错误，已通过 commit 更新。
+
+⚙️ 在审核中要求补充缺失的单元测试，并指出了相关文件未覆盖的边界情况。
 <!-- ACTIVITY_END -->
 
 ---
