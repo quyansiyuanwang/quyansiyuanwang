@@ -60,14 +60,9 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🎉 创建了 `quyansiyuanwang/Quyan-ServerDemos` 仓库的 `main` 分支  
+👍 创建了 `quyansiyuanwang/Quyan-ServerDemos` 仓库的主分支 `main`  
 
-🔍 审查了 `quyansiyuanwang/Quyan-StaticSite` 仓库的 PR #4  
-✅ 确认 `main` 分支用于项目基线，便于后续开发迭代  
-
-💬 针对 PR #4 提出了代码风格统一和错误处理补全的建议  
-
-🔄 完成审查后，与提交者沟通了修改方案，准备跟进下一步合并
+🔍 审查了 `quyansiyuanwang/Quyan-StaticSite` 仓库的 PR #4
 <!-- ACTIVITY_END -->
 
 ---
