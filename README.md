@@ -60,14 +60,9 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📌 在 `quyansiyuanwang/Quyan-ServerDemos` 创建了 `main` 分支  
+🔧 在 `quyansiyuanwang/Quyan-ServerDemos` 创建了 `main` 分支  
 
-🔍 审查了 `quyansiyuanwang/Quyan-StaticSite` 的 PR #4  
-⚙️ 修复了 `Quyan-ServerDemos` 中的认证服务连接超时问题（commit: `a3f1e2c`）  
-
-📦 更新了 `Quyan-StaticSite` 的静态资源构建配置，优化了图片压缩流程  
-
-🐛 解决了 `Quyan-ServerDemos` 中数据库连接池泄漏的 bug（issue #7）
+📋 审查了 `quyansiyuanwang/Quyan-StaticSite` 的 PR #4
 <!-- ACTIVITY_END -->
 
 ---
