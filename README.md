@@ -52,7 +52,7 @@ const developer = {
 ## 📊 GitHub Stats
 
 <!-- STATS_START -->
-📊 35 repos · ⭐ 18 stars · 👥 13 followers · 💻 Top: Python
+📊 36 repos · ⭐ 20 stars · 👥 13 followers · 💻 Top: Python
 <!-- STATS_END -->
 
 ---
@@ -60,9 +60,11 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 在 `quyansiyuanwang/Quyan-ServerDemos` 创建了 `main` 分支  
+🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #4 和 PR #5  
 
-📋 审查了 `quyansiyuanwang/Quyan-StaticSite` 的 PR #4
+📖 审查了 quyansiyuanwang/Quyan-DocsSite 的 PR #4、#5、#6 和 #7  
+
+🌱 为 quyansiyuanwang/Quyan-ServerSDK 创建了 main 分支
 <!-- ACTIVITY_END -->
 
 ---
