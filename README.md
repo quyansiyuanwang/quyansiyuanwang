@@ -60,11 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #4 和 PR #5  
+🔍 审查了 quyansiyuanwang/Quyan-StaticSite 的 PR #5，重点检查了静态站点生成的兼容性问题  
 
-📖 审查了 quyansiyuanwang/Quyan-DocsSite 的 PR #4、#5、#6 和 #7  
+📋 在 quyansiyuanwang/Quyan-DocsSite 中并行审查了 PR #4、#5、#6，确认文档链接和 Markdown 格式无误  
 
-🌱 为 quyansiyuanwang/Quyan-ServerSDK 创建了 main 分支
+🛠️ 对 quyansiyuanwang/Quyan-DocsSite 的 PR #7 进行了最终审查，确保改动符合站点发布规范  
+
+🌱 在 quyansiyuanwang/Quyan-ServerSDK 中创建了 main 分支，为后续服务端 SDK 开发奠定了基础
 <!-- ACTIVITY_END -->
 
 ---
