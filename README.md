@@ -60,14 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 在 `quyansiyuanwang/Quyan-RemoteTerminalCloud` 仓库创建了 `master` 分支，作为主要开发基线。  
+🔧 修复了 EasyTranslate 中特殊符号导致的 webhook 格式错误，提交位于 `fix-parse-command-and-release` 分支。  
 
-🔧 配置仓库初始结构，包括 `.gitignore` 和项目基础依赖文件。  
+📝 在 `docs/config-and-usage.md` 新增了环境变量 `WEBHOOK_URL` 和 `PUBLIC_URL` 的详细说明。  
 
-📝 起草并提交了项目 README，明确远程终端云服务的基本功能与架构说明。  
+🐛 关闭了 Issue #42，定位到 `config-loader` 模块在空文件时抛出 KeyError 的 bug 并提交补丁。  
+⚙️ 重构了 `notifier.py` 中的 `format_message` 函数，提取公共模板方法减少重复代码。  
 
-🔄 设置远程仓库连接，确保本地 master 分支与 GitHub 同步。  
-✅ 完成首轮基础目录结构搭建，为后续功能模块开发做好准备。
+🚀 为前端项目配置了 GitHub Actions 自动部署到 Pages，对应 PR #57。
 <!-- ACTIVITY_END -->
 
 ---
