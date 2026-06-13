@@ -60,14 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 修复了 EasyTranslate 中特殊符号导致的 webhook 格式错误，提交位于 `fix-parse-command-and-release` 分支。  
+📋 审查了 quyansiyuanwang/Quyan-DocsSite 仓库的 PR #8，发现代码风格与现有规范不一致  
 
-📝 在 `docs/config-and-usage.md` 新增了环境变量 `WEBHOOK_URL` 和 `PUBLIC_URL` 的详细说明。  
+🔍 指出 PR #8 中新增的 CSS 类名未遵循 BEM 命名规范，建议改为组件前缀格式  
+✅ 确认 PR #8 的文档更新部分内容正确，但缺少对新增配置项的说明文档  
 
-🐛 关闭了 Issue #42，定位到 `config-loader` 模块在空文件时抛出 KeyError 的 bug 并提交补丁。  
-⚙️ 重构了 `notifier.py` 中的 `format_message` 函数，提取公共模板方法减少重复代码。  
+🔄 要求 PR #8 作者补充相关单元测试，覆盖新增的页面跳转逻辑分支  
 
-🚀 为前端项目配置了 GitHub Actions 自动部署到 Pages，对应 PR #57。
+📝 已提交 review comment，等待作者修改后再合并
 <!-- ACTIVITY_END -->
 
 ---
