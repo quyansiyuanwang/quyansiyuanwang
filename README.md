@@ -60,14 +60,11 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📋 审查了 quyansiyuanwang/Quyan-DocsSite 仓库的 PR #8，发现代码风格与现有规范不一致  
+🔒 关闭了 quyansiyuanwang/Quyan-RemoteTerminalCloud 仓库中的 PR #8，commit 内容为「无标题」
 
-🔍 指出 PR #8 中新增的 CSS 类名未遵循 BEM 命名规范，建议改为组件前缀格式  
-✅ 确认 PR #8 的文档更新部分内容正确，但缺少对新增配置项的说明文档  
+👀 审查了同一仓库中的 PR #7，未发现明显问题
 
-🔄 要求 PR #8 作者补充相关单元测试，覆盖新增的页面跳转逻辑分支  
-
-📝 已提交 review comment，等待作者修改后再合并
+📋 审查了同一仓库中的 PR #6，确认无冲突和异常行为
 <!-- ACTIVITY_END -->
 
 ---
