@@ -60,11 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔒 关闭了 quyansiyuanwang/Quyan-RemoteTerminalCloud 仓库中的 PR #8，commit 内容为「无标题」
+🧹 清理了 `dotfiles/zsh` 目录冗余文件，合并了重复的 zsh 配置，提升加载速度。  
 
-👀 审查了同一仓库中的 PR #7，未发现明显问题
+🔧 修复了 `archery/keyboard_review` 仓库中 Issue #12 报告的按键映射错误，更新了 `keymap.c`。  
 
-📋 审查了同一仓库中的 PR #6，确认无冲突和异常行为
+📦 重构了 `personal-blog` 的 CI 流程，将部署脚本迁移至 GitHub Actions，并更换了分支策略。  
+
+📝 新增了 `breeze` 项目 README 中的代码示例部分，关联 PR #7，补充了 Quick Start 说明。  
+
+💡 优化了 `toolbox` 中 Python 脚本的函数命名，统一了 `snake_case` 风格，commit `a3b2c1d`。
 <!-- ACTIVITY_END -->
 
 ---
