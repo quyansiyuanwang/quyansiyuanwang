@@ -60,13 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📝 在 `quyansiyuanwang/Quyan-RemoteTerminalCloud` 创建了 PR #9（无标题），提交了初始代码或修改。
+📦 在 `quyansiyuanwang/Quyan-DocsSite` 合并了 PR #10，完成了无标题的文档站点更新  
 
+🔧 在 `quyansiyuanwang/Quyan-StaticSite` 合并了 PR #6，处理了静态站点相关修改  
+🆕 创建了 `quyansiyuanwang/Quyan-DocsSite` 的 PR #10，同步了刚合并的变更  
+🆕 创建了 `quyansiyuanwang/Quyan-StaticSite` 的 PR #6，启动静态站点改动  
 
-🔍 审查了同一仓库的 PR #9，评估代码变更并给出反馈。
-
-
-📄 在 `quyansiyuanwang/Quyan-DocsSite` 审查了另一个 PR，确保文档质量。
+👁️ 审查了 `quyansiyuanwang/Quyan-RemoteTerminalCloud` 的 PR #9，以及 `quyansiyuanwang/Quyan-DocsSite` 的 PR #9
 <!-- ACTIVITY_END -->
 
 ---
