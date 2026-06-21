@@ -52,7 +52,7 @@ const developer = {
 ## 📊 GitHub Stats
 
 <!-- STATS_START -->
-📊 37 repos · ⭐ 23 stars · 👥 13 followers · 💻 Top: Python
+📊 38 repos · ⭐ 23 stars · 👥 13 followers · 💻 Top: Python
 <!-- STATS_END -->
 
 ---
@@ -60,13 +60,10 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📦 在 `quyansiyuanwang/Quyan-DocsSite` 合并了 PR #10，完成了无标题的文档站点更新  
+🎯 在 `quyansiyuanwang/PersonalBlog` 创建了 `main` 分支  
 
-🔧 在 `quyansiyuanwang/Quyan-StaticSite` 合并了 PR #6，处理了静态站点相关修改  
-🆕 创建了 `quyansiyuanwang/Quyan-DocsSite` 的 PR #10，同步了刚合并的变更  
-🆕 创建了 `quyansiyuanwang/Quyan-StaticSite` 的 PR #6，启动静态站点改动  
-
-👁️ 审查了 `quyansiyuanwang/Quyan-RemoteTerminalCloud` 的 PR #9，以及 `quyansiyuanwang/Quyan-DocsSite` 的 PR #9
+🔀 合入了 `quyansiyuanwang/Quyan-DocsSite` 的 PR #10 和 `Quyan-StaticSite` 的 PR #6  
+🆕 新建了 PR #9（`Quyan-RemoteTerminalCloud`）以及 PR #10 和 PR #6
 <!-- ACTIVITY_END -->
 
 ---
