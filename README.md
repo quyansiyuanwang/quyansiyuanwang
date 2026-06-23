@@ -60,14 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 修复了 `prompt-engineering-toolkit` 仓库中 Issue #23 报告的模型输出截断 bug，通过增加 `max_tokens` 参数默认值并添加配置验证逻辑。  
+📌 修复了 `user-auth` 仓库的 Issue #45，解决用户登录时 token 刷新失败导致 401 错误的问题。  
 
-📦 重构了 `data-pipeline` 的 ETL 流程，将 JSON 解析模块拆分为独立微服务，并提交了 commit `a1b2c3d` 以优化内存占用。  
+🔧 合并了 PR #123，为 `data-pipeline` 模块增加了批量数据校验功能，并优化了错误日志输出。  
 
-🔄 为 `auth-service` 实现 OAuth2.0 刷新令牌机制，解决了 PR #89 中提到的 token 失效后自动重试的边界条件问题。  
+💡 重构了 `payment-service` 中关于订单状态的判断逻辑，commit `a3f2b1c`，减少了不必要的数据库查询。  
 
-🐛 修复 `dashboard-frontend` 在 Safari 浏览器下的 CSS 布局偏移，对应 Issue #45，并补充了跨浏览器兼容性测试用例。  
-⚡ 优化 `ml-inference` 库的批量推理接口，将单次请求响应时间降低 40%，相关改动已在 PR #117 中完成代码审查。
+🐛 定位并修复了 `frontend` 仓库中购物车组件在 Safari 下的布局错乱，相关 PR #89。  
+
+📊 更新了仓库 `metrics-dashboard` 的 README，补充了新的 API 调用率和错误率图表的使用说明。
 <!-- ACTIVITY_END -->
 
 ---
