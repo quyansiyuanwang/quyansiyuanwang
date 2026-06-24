@@ -60,15 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📌 修复了 `user-auth` 仓库的 Issue #45，解决用户登录时 token 刷新失败导致 401 错误的问题。  
+📌 在 `my-library` 仓库提交了 PR #42，修复了用户登录后 session 未正确写入 Redis 的 bug，已合并并关闭 Issue #40。  
+⚡ 重构了 CI/CD 流水线中的构建阶段，将 `Dockerfile` 改为多阶段构建，镜像体积减少了 40%。  
 
-🔧 合并了 PR #123，为 `data-pipeline` 模块增加了批量数据校验功能，并优化了错误日志输出。  
+🛠️ 更新了 `docs/api-guide.md`，补充了速率限制和错误码的说明，方便新成员快速上手。  
 
-💡 重构了 `payment-service` 中关于订单状态的判断逻辑，commit `a3f2b1c`，减少了不必要的数据库查询。  
+🐛 修复了 `main` 分支上一个导致 NullPointerException 的 hotfix（commit `a1b2c3d`），紧急部署到生产环境后恢复正常。  
 
-🐛 定位并修复了 `frontend` 仓库中购物车组件在 Safari 下的布局错乱，相关 PR #89。  
-
-📊 更新了仓库 `metrics-dashboard` 的 README，补充了新的 API 调用率和错误率图表的使用说明。
+📊 完成了性能测试报告，针对 `user-service` 模块的数据库查询，添加了联合索引，查询耗时从 800ms 降至 120ms。
 <!-- ACTIVITY_END -->
 
 ---
