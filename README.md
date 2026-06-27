@@ -60,14 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 修复了仓库 xxxx 中的 Issue #12，原因是参数类型传错，已提交 commit 修复并关闭该 Issue。  
+🔨 重构了 LLMCache 的 LRU 淘汰逻辑，在 `lru_map_test.cc` 中新增了针对边界条件的测试用例，修复了 `kCustomOption` 配置下 cache 命中率异常下降的问题。  
 
-📦 为仓库 yyyy 新增了用户登录功能，实现了 JWT 鉴权和刷新 token 逻辑，PR #34 已合并。  
-⚡ 优化了仓库 zzzz 的列表查询接口，添加数据库索引后，响应时间从 500ms 降至 50ms。  
+🚀 合并了 `feature/embedding-optimization` 分支的 PR #187，在 `embedding_service.cc` 中改用 __m256i 指令优化向量计算，将语义相似度检索延迟从 12ms 降低到 4.5ms。  
 
-🐛 解决了仓库 aaaa 中页面跳转时的内存泄漏问题，通过 useEffect 清理定时器修复。  
+🐛 修复了 `trainer_multi_gpu.py` 中的梯度累积步数计算错误，导致 loss 在 epoch 15 后出现 NaN 的问题（commit `a3f9c21`）。  
 
-📝 更新了仓库 bbbb 的 API 文档，补充了 v3 接口的请求参数示例和错误码说明。
+📊 在 `reports/` 下新增了 `experiment_results_v3.md`，记录了 AdaMixer 在全精度与 FP16 混合精度下的 loss 收敛曲线对比数据。  
+✅ 完成了 `config_loader.h` 中 batch_size 与 learning_rate 联动校验的单元测试，覆盖了 `values/optional.h` 中的 `std::nullopt` 边界情况。
 <!-- ACTIVITY_END -->
 
 ---
