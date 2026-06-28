@@ -60,14 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔨 重构了 LLMCache 的 LRU 淘汰逻辑，在 `lru_map_test.cc` 中新增了针对边界条件的测试用例，修复了 `kCustomOption` 配置下 cache 命中率异常下降的问题。  
+✅ 修复了用户反馈的登录闪退问题，通过检查 `AuthSession` 的 `token` 判空逻辑，处理了过期 token 导致的崩溃（PR #3241）  
 
-🚀 合并了 `feature/embedding-optimization` 分支的 PR #187，在 `embedding_service.cc` 中改用 __m256i 指令优化向量计算，将语义相似度检索延迟从 12ms 降低到 4.5ms。  
+🔄 重构了用户个人资料编辑模块，将原先的 `ProfileEditor.tsx` 拆分为 3 个独立组件，并优化了图片上传的异步状态管理（commit: 2f8a4d1）  
 
-🐛 修复了 `trainer_multi_gpu.py` 中的梯度累积步数计算错误，导致 loss 在 epoch 15 后出现 NaN 的问题（commit `a3f9c21`）。  
+📌 为 API 请求添加了失败重试机制，最多重试 3 次，每次间隔递增 2 秒，改动涉及 `api/client.ts` 中的 `retryRequest` 方法  
 
-📊 在 `reports/` 下新增了 `experiment_results_v3.md`，记录了 AdaMixer 在全精度与 FP16 混合精度下的 loss 收敛曲线对比数据。  
-✅ 完成了 `config_loader.h` 中 batch_size 与 learning_rate 联动校验的单元测试，覆盖了 `values/optional.h` 中的 `std::nullopt` 边界情况。
+🐛 在仓库 `docs-v2` 中合并了一个文档补丁，修复了关于本地开发环境变量设置的误导性示例（Issue #82）  
+⚡ 将用户列表分页的 SQL 查询从 `OFFSET` 改为了基于 `cursor` 的键集分页，大幅减少了大数据量下的响应时间（仓库：backend-service）
 <!-- ACTIVITY_END -->
 
 ---
