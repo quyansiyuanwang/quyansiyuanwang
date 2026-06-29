@@ -60,14 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-✅ 修复了用户反馈的登录闪退问题，通过检查 `AuthSession` 的 `token` 判空逻辑，处理了过期 token 导致的崩溃（PR #3241）  
+🔧 在 `mlx-rs` 仓库中，我修复了训练脚本中 `accuracy` 计算时的整型溢出问题，提交了 commit `fix overflow in accuracy`。  
 
-🔄 重构了用户个人资料编辑模块，将原先的 `ProfileEditor.tsx` 拆分为 3 个独立组件，并优化了图片上传的异步状态管理（commit: 2f8a4d1）  
+📌 为 `clippy` 工具适配了新的 `-W clippy::pedantic` 检查，在 PR #312 中解决了 12 个 lint 警告。  
 
-📌 为 API 请求添加了失败重试机制，最多重试 3 次，每次间隔递增 2 秒，改动涉及 `api/client.ts` 中的 `retryRequest` 方法  
+🐛 排查并修复了构建系统在跨平台下的路径分隔符错误，对应 Issue #98 和 commit `fix path separator for Windows`。  
 
-🐛 在仓库 `docs-v2` 中合并了一个文档补丁，修复了关于本地开发环境变量设置的误导性示例（Issue #82）  
-⚡ 将用户列表分页的 SQL 查询从 `OFFSET` 改为了基于 `cursor` 的键集分页，大幅减少了大数据量下的响应时间（仓库：backend-service）
+📖 更新了 `README.md` 中的快速开始示例，补充了 `cargo add` 用法和常见错误说明，合并于 PR #305。  
+
+🧪 在 CI 中增加了对 `stable` 和 `nightly` 的并行测试，优化了 `ci.yml` 中的流程，提交为 `ci: add nightly test job`。
 <!-- ACTIVITY_END -->
 
 ---
