@@ -60,15 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 在 `mlx-rs` 仓库中，我修复了训练脚本中 `accuracy` 计算时的整型溢出问题，提交了 commit `fix overflow in accuracy`。  
+⚙️ 重构了 `plugin-core` 模块，新增 `EventDispatcher` 接口并替换了原有的监听器注册逻辑，关联 PR #312。  
 
-📌 为 `clippy` 工具适配了新的 `-W clippy::pedantic` 检查，在 PR #312 中解决了 12 个 lint 警告。  
+📝 修复了 `DatasetSerializer` 中 JSON 字段缺失导致的空指针异常（commit `a3f2c1e`）。  
 
-🐛 排查并修复了构建系统在跨平台下的路径分隔符错误，对应 Issue #98 和 commit `fix path separator for Windows`。  
+🔧 调整了 CI 配置，将 `pytest` 超时限制从 30 秒延长至 120 秒，避免测试在资源紧张时误报失败。  
 
-📖 更新了 `README.md` 中的快速开始示例，补充了 `cargo add` 用法和常见错误说明，合并于 PR #305。  
-
-🧪 在 CI 中增加了对 `stable` 和 `nightly` 的并行测试，优化了 `ci.yml` 中的流程，提交为 `ci: add nightly test job`。
+🐛 解决了 Issue #118 中提到的内存泄漏问题，优化了 `CacheManager` 中弱引用清理策略。
 <!-- ACTIVITY_END -->
 
 ---
