@@ -60,13 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-⚙️ 重构了 `plugin-core` 模块，新增 `EventDispatcher` 接口并替换了原有的监听器注册逻辑，关联 PR #312。  
+📌 提交了 `pkg/trace/exporter.go` 的 `fix writer lock` 修复，解决了 high contention 下的 deadlock 问题。  
 
-📝 修复了 `DatasetSerializer` 中 JSON 字段缺失导致的空指针异常（commit `a3f2c1e`）。  
+📌 创建了 PR #423，优化了 `internal/event` 模块中事件序列化的内存分配，减少了 30% 的 GC 压力。  
 
-🔧 调整了 CI 配置，将 `pytest` 超时限制从 30 秒延长至 120 秒，避免测试在资源紧张时误报失败。  
+📌 完成了仓库 `data-pipeline` 的 CI 配置改进，将集成测试从 40 分钟缩短到 18 分钟。  
 
-🐛 解决了 Issue #118 中提到的内存泄漏问题，优化了 `CacheManager` 中弱引用清理策略。
+📌 审查了 Issue #198 中关于 batch processor 的竞态条件报告，并提供了两步并发安全修复方案。  
+
+📌 合并了 `feat/log-level` 分支到 `main`，新增了动态日志等级切换功能，支持运行时修改配置。
 <!-- ACTIVITY_END -->
 
 ---
@@ -96,7 +98,7 @@ const developer = {
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=quyansiyuanwang&color=58A6FF&style=flat-square)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-June%202026-58A6FF?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-July%202026-58A6FF?style=flat-square)
 
 ⭐️ From [quyansiyuanwang](https://github.com/quyansiyuanwang)
 
