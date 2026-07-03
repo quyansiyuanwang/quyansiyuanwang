@@ -60,14 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🎨 在 `octocat/demo` 仓库中，我完成了 `README.md` 的更新，添加了安装与使用章节，对应 PR #123。  
+🔧 完成仓库 `frontend-app` 的 PR #245，修复了用户登录后页面跳转不正确的 bug，合并到 `main` 分支。  
 
-🐛 修复了 `features/issue-form` 分支中的配置样式 bug，commit: `fix: correct form field alignment`。  
+📝 针对 Issue #112，在 `backend-service` 新增了 REST API `/api/v2/reports`，支持按日期过滤数据，并更新了对应的 OpenAPI 文档。  
 
-📦 重构了用户认证模块，将 JWT 生成逻辑抽离为独立服务，减少了 30% 重复代码。  
+🚀 优化了 `deploy-scripts` 中的 Docker 镜像构建流程，通过增加多阶段构建减小了最终镜像体积约 30%，commit `c3a9f12b`。  
 
-🚀 协助 review 并合并了两个依赖更新 PR（#127 和 #129），升级了 webpack 和 lodash 版本。  
-✅ 关闭了 Issue #45（登录页超时异常），通过增加重试机制和错误提示完成修复。
+🐛 修复了 commit `4e8b2a1` 引入的 CSS 布局错位问题，在 `ui-toolkit` 仓库中调整了响应式表格的媒体查询断点。  
+
+📊 在 `analytics-dashboard` 项目中，将核心图表组件从 ECharts 迁移到 D3.js，提升了大数据量下的渲染性能，PR #89 待 review。
 <!-- ACTIVITY_END -->
 
 ---
