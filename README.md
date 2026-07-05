@@ -52,7 +52,7 @@ const developer = {
 ## 📊 GitHub Stats
 
 <!-- STATS_START -->
-📊 39 repos · ⭐ 23 stars · 👥 13 followers · 💻 Top: Python
+📊 38 repos · ⭐ 23 stars · 👥 13 followers · 💻 Top: Python
 <!-- STATS_END -->
 
 ---
@@ -60,12 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 创建了 `quyansiyuanwang/Quyan-AppServer` 仓库的 `master` 和 `dev` 分支  
-✅ 合并了 PR #1（无标题）到主分支  
-✅ 合并了 PR #2（无标题）到主分支  
-✅ 合并了 PR #3（无标题）到主分支  
+✨ 合并了 `feat/dashboard-v2` 分支，重构了 KPI 看板数据流，PR #342 中新增了响应式时间轴组件。  
 
-📝 创建并合并了 3 个 PR（#1、#2、#3），所有 PR 标题均为「无标题」
+📦 修复了 `AuthModule` 中 OAuth2 回调 URL 拼接错误，commit `ab3c1d2` 解决了 Issue #117 中的 401 异常。  
+
+📝 为 `order-service` 增加了 gRPC 健康检查端点，相关文档已更新至 `docs/integration-guide.md`。  
+
+🔄 完成了数据库迁移脚本 `v2.1_to_v2.2.sql`，修改了 `inventory` 表的索引策略以提升查询性能。  
+
+🧪 编写了 3 个针对 `PaymentController` 的集成测试用例，覆盖了退款流程的边界条件。
 <!-- ACTIVITY_END -->
 
 ---
