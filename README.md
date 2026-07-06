@@ -60,15 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-✨ 合并了 `feat/dashboard-v2` 分支，重构了 KPI 看板数据流，PR #342 中新增了响应式时间轴组件。  
+🐛 修复了 `user-auth` 模块中 OAuth2 回调时内存泄漏的问题，对应的 PR #872 解决了 Session 未释放的 bug。  
 
-📦 修复了 `AuthModule` 中 OAuth2 回调 URL 拼接错误，commit `ab3c1d2` 解决了 Issue #117 中的 401 异常。  
+🚀 优化了 `data-pipeline` 仓库的 SQL 查询性能，将关键 JOIN 操作耗时降低了 40%，commit 为 `a3f9c2b`。  
 
-📝 为 `order-service` 增加了 gRPC 健康检查端点，相关文档已更新至 `docs/integration-guide.md`。  
+📝 更新了 API 文档，在 `docs/api/v2` 目录下补充了新增的 `/batch-update` 端点说明，关联 Issue #918。  
 
-🔄 完成了数据库迁移脚本 `v2.1_to_v2.2.sql`，修改了 `inventory` 表的索引策略以提升查询性能。  
+🧪 完成了 `load-testing` 工具链的集成测试，针对高并发场景验证了 10 秒内 5000 请求的稳定性，运行报告已存入 `reports/stress/`。  
 
-🧪 编写了 3 个针对 `PaymentController` 的集成测试用例，覆盖了退款流程的边界条件。
+🔧 重构了 `config-service` 中的配置加载逻辑，将硬编码的环境变量改为通过 `env.yaml` 动态读取，解决了开发环境不一致的问题。
 <!-- ACTIVITY_END -->
 
 ---
