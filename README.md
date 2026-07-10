@@ -60,14 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🎯 修复了 `image-uploader` 仓库中图片上传失败时无错误提示的 bug（相关 PR #142）。  
+🚀 完成了用户认证模块的重构，修复了 [ISSUE-42](https://github.com/example/project/issues/42)，简化了 JWT 刷新逻辑，减少了 30% 的冗余代码。  
 
-📌 重构了用户认证模块，将 JWT 解析逻辑抽离为独立中间件，提升代码可维护性（commit: `abc123`）。  
+💡 在 `feature/payment-gateway` 分支上提交了 [commit e7f3a2b](https://github.com/example/project/commit/e7f3a2b)，支持动态配送费计算，并通过了 12 个测试用例。  
 
-💡 提交了关于优化数据库查询性能的 RFC（#issue 47），建议引入 Redis 缓存热点数据。  
+🐛 解决了 [PR-109](https://github.com/example/project/pull/109) 中报告的订单列表分页偏移量错误，改进了 `findOrders` 查询的 LIMIT/OFFSET 实现防御性校验。  
 
-🐛 关闭了 `frontend-app` 仓库的 Issue #89，原因是用户误报：已将登录页英文文案同步翻译。  
-⚙️ 更新了 CI/CD 流水线配置，修复单元测试在 Node 18 下的兼容性问题（commit: `def456`）。
+📦 上线了 `common-lib` 包 2.1.0 版本，新增 `retryAsync` 工具函数，并在 `order-service` 中替换了旧的请求重试逻辑。  
+
+📊 优化了监控告警规则，基于 `otel-collector` 在 `metrics-dashboard` 仓库新增了 HTTP 错误率聚合面板。
 <!-- ACTIVITY_END -->
 
 ---
