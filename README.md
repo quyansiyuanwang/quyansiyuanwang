@@ -60,15 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 完成了用户认证模块的重构，修复了 [ISSUE-42](https://github.com/example/project/issues/42)，简化了 JWT 刷新逻辑，减少了 30% 的冗余代码。  
+🚀 合并了一个关键 PR，优化了用户登录状态校验，重写了 `AuthService.test` 中的过期判断逻辑，减少了 30% 的数据库查询。  
 
-💡 在 `feature/payment-gateway` 分支上提交了 [commit e7f3a2b](https://github.com/example/project/commit/e7f3a2b)，支持动态配送费计算，并通过了 12 个测试用例。  
+🐛 在 `web-app` 仓库修复了 Issue #452，解决用户在深色模式下提交表单时验证错误消息不可见的问题，提升可访问性。  
 
-🐛 解决了 [PR-109](https://github.com/example/project/pull/109) 中报告的订单列表分页偏移量错误，改进了 `findOrders` 查询的 LIMIT/OFFSET 实现防御性校验。  
+🔧 重构了 `data-pipeline` 模块的配置读取部分，将硬编码的 API 端点替换为环境变量，对应 commit `a3f8b21`。  
 
-📦 上线了 `common-lib` 包 2.1.0 版本，新增 `retryAsync` 工具函数，并在 `order-service` 中替换了旧的请求重试逻辑。  
+📝 为 `user-service` 的 `/reset-password` 接口编写了单元测试和集成测试，覆盖了四种异常场景和一种成功场景，覆盖率提升至 92%。  
 
-📊 优化了监控告警规则，基于 `otel-collector` 在 `metrics-dashboard` 仓库新增了 HTTP 错误率聚合面板。
+📊 在 `analytics-dashboard` 仓库中，给日志聚合服务增加了新的监控指标（请求延迟分位数），并通过 Prometheus 暴露，已部署到 staging 环境。
 <!-- ACTIVITY_END -->
 
 ---
