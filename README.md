@@ -60,15 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 完成了仓库 `my-project` 中 Issue #42 的修复，PR #105 已合并，主要修复了用户登录时的 token 过期未刷新问题。  
+😊 修复了 `user-auth` 仓库的 Issue #23，改进了 OAuth 令牌刷新时的并发竞态条件，确保连续请求不会因令牌过期而失败。  
 
-📝 改进了 CI 流程，在 `.github/workflows/test.yml` 中新增了并行测试步骤，缩短了整体构建时间约 20%。  
+🚀 为 `data-pipeline` 仓库新增了基于 `pandas` 的数据预处理模块，支持自动填充缺失值，并合并了 PR #45。  
 
-🐛 修复了 commit `a1b2c3d` 中引入的 `null pointer` 异常，相关改动已推送到 `fix-npe` 分支待审核。  
+🔧 优化了 `monitor-service` 的日志聚合逻辑，commit `a1b2c3d` 将多个异步写入合并为批量写入，降低 I/O 延迟。  
 
-📄 编写了 `docs/API.md` 更新内容，补充了 `/users/batch` 接口的参数说明和错误码表。  
-
-💬 回复了 PR #108 的代码审查意见，优化了数据批处理逻辑的内存使用。
+📝 更新了 `api-docs` 仓库中的 REST API 文档，补充了 `/v2/users` 端点的分页参数说明和错误码示例。  
+✅ 完成了 `ci-config` 仓库的 GitLab CI 流水线重构，将测试与部署阶段分离，减少了单次流水线执行时间约 20%。
 <!-- ACTIVITY_END -->
 
 ---
