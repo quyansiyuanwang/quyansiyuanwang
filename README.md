@@ -60,13 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🎉 在 `Quyan-DocsSite` 合并了 PR #10（无标题）  
+✨ 合并了 `quyansiyuanwang/Quyan-DocsSite` 的 PR #10  
 
-🚀 在 `Quyan-StaticSite` 合并了 PR #6（无标题）  
-🆕 在 `Quyan-DocsSite` 创建了 PR #10（无标题）  
-🆕 在 `Quyan-StaticSite` 创建了 PR #6（无标题）  
+🔀 合并了 `quyansiyuanwang/Quyan-StaticSite` 的 PR #6  
+🆕 创建了 `quyansiyuanwang/Quyan-DocsSite` 的 PR #10  
+🆕 创建了 `quyansiyuanwang/Quyan-StaticSite` 的 PR #6  
 
-🔍 审查了 `Quyan-DocsSite` 的 PR #9
+👀 审查了 `quyansiyuanwang/Quyan-RemoteTerminalCloud` 的 PR #9 和 `quyansiyuanwang/Quyan-DocsSite` 的 PR #9
 <!-- ACTIVITY_END -->
 
 ---
