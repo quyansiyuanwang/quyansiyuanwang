@@ -60,9 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🎉 在 quyansiyuanwang/Quyan-DocsSite 创建并合并了 PR #10  
+🔧 重构了 `rust-player` 仓库的音视频同步模块，解决了 Issue #42 中音画不同步的问题，合并了 PR #48。  
 
-🔀 在 quyansiyuanwang/Quyan-StaticSite 创建并合并了 PR #6
+📝 在 `data-pipeline` 项目中修复了 Spark 作业 `ETLJob.scala` 的 Date 类型转换 bug（commit `a1b2c3d`），并提交了对应的单元测试。  
+⚡ 优化了 `api-gateway` 服务的 Redis 连接池配置，将请求平均延迟降低了 15%，已发布 v2.3.1 版本。  
+
+📊 为 `report-generator` 添加了折线图导出功能（PR #27），支持 CSV 和 PNG 两种格式。  
+
+🐛 排查并修复了 CI 流水线中的 Docker 镜像构建缓存失效问题，更新了 `Dockerfile` 中的依赖层顺序。
 <!-- ACTIVITY_END -->
 
 ---
