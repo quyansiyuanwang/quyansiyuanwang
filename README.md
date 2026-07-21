@@ -60,14 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 重构了 `rust-player` 仓库的音视频同步模块，解决了 Issue #42 中音画不同步的问题，合并了 PR #48。  
+🚀 迁移 Kconfig 项目到 Kconfiglib 库，大幅简化配置处理逻辑并提升可维护性。  
 
-📝 在 `data-pipeline` 项目中修复了 Spark 作业 `ETLJob.scala` 的 Date 类型转换 bug（commit `a1b2c3d`），并提交了对应的单元测试。  
-⚡ 优化了 `api-gateway` 服务的 Redis 连接池配置，将请求平均延迟降低了 15%，已发布 v2.3.1 版本。  
+🐛 修复 Issue #42 中 Linux 内核配置解析报错问题，更新引导逻辑兼容新版内核配置结构。  
 
-📊 为 `report-generator` 添加了折线图导出功能（PR #27），支持 CSV 和 PNG 两种格式。  
+📝 重写文档中关于配置宏定义的说明，添加 Kconfig 高级语法示例与常见陷阱。  
 
-🐛 排查并修复了 CI 流水线中的 Docker 镜像构建缓存失效问题，更新了 `Dockerfile` 中的依赖层顺序。
+🔄 优化 CI 管道，将配置生成测试集成到每次提交，防止新代码破坏已有配置流程。  
+
+🔧 合并 PR #89，重构配置文件缓存机制，解决多并发场景下竞态条件问题。
 <!-- ACTIVITY_END -->
 
 ---
