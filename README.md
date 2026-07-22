@@ -60,15 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 迁移 Kconfig 项目到 Kconfiglib 库，大幅简化配置处理逻辑并提升可维护性。  
+🎉 在 `quyansiyuanwang/GenshinImpactPianoPlayer` 仓库中创建了 PR #4，并已合并  
 
-🐛 修复 Issue #42 中 Linux 内核配置解析报错问题，更新引导逻辑兼容新版内核配置结构。  
+🔀 创建了 `dev` 分支用于开发  
 
-📝 重写文档中关于配置宏定义的说明，添加 Kconfig 高级语法示例与常见陷阱。  
+📝 关闭了 Issue #3，内容涉及文档更新  
 
-🔄 优化 CI 管道，将配置生成测试集成到每次提交，防止新代码破坏已有配置流程。  
-
-🔧 合并 PR #89，重构配置文件缓存机制，解决多并发场景下竞态条件问题。
+🖋️ 更新了 `3b7dbc56fd412cbc37f2193be6d18254fd270e49` 之后的提交内容至文档
 <!-- ACTIVITY_END -->
 
 ---
