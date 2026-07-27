@@ -60,9 +60,11 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📝 提交代码到 PersonalBlog
-🔀 提交 PR 到 GenshinImpactPianoPlayer
-📝 提交代码到 GenshinImpactPianoPlayer
+📌 在 `quyansiyuanwang/GenshinImpactPianoPlayer` 中创建了 `dev` 分支，用于后续开发工作。  
+
+🔀 创建并合并了 PR #4（无标题），完成了相应功能或修改。  
+
+🔒 关闭了 Issue #3 `doc: docs should be updated`，说明 `3b7dbc5...` 之后的所有提交内容已更新至文档中。
 <!-- ACTIVITY_END -->
 
 ---
