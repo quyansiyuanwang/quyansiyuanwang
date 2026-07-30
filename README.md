@@ -60,12 +60,11 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🎉 合并了 PR #4 到 quyansiyuanwang/GenshinImpactPianoPlayer
-🆕 创建了 PR #4 在 quyansiyuanwang/GenshinImpactPianoPlayer
+📝 在 `quyansiyuanwang/GenshinImpactPianoPlayer` 仓库创建了 `dev` 分支，开始新的开发工作  
 
-🌱 创建了分支 dev 在 quyansiyuanwang/GenshinImpactPianoPlayer
+🔀 创建并合并了 PR #4，该 PR 暂无标题说明  
 
-🔒 关闭了 Issue #3（doc: docs should be updated），原因是 commit `3b7dbc56fd412cbc37f2193be6d18254fd270e49` 后的内容需要更新到文档中
+📄 关闭了 Issue #3，原因是 commit `3b7dbc56fd412cbc37f2193be6d18254fd270e49` 之后的内容需要更新到文档
 <!-- ACTIVITY_END -->
 
 ---
