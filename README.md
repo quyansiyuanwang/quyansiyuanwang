@@ -60,14 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔀 合并了 PR #4 到 `quyansiyuanwang/GenshinImpactPianoPlayer` 主分支
+🚀 合并了 PR #4 到 quyansiyuanwang/GenshinImpactPianoPlayer，无标题。
 
-🌿 创建了 `dev` 分支，用于后续开发工作
+🌿 创建了 dev 分支，用于后续开发工作。
 
-📝 关闭了 Issue #3（文档需更新），并注明需同步更新 `3b7dbc56` 之后提交的内容到文档
+🔒 关闭了 Issue #3，确认 docs 需要更新至 commit `3b7dbc5` 之后的内容。
 
-💻 提交了 PR #4 的变更并完成合并，涉及功能或代码调整（具体内容未指定）
-✅ 收尾了文档相关的待办事项，明确了后续文档同步的范围
+📄 记录了 commit `3b7dbc5` 后的内容变更，确保文档同步。
+✅ 完成了从分支创建到 PR 合并的完整流程，推动了项目进展。
 <!-- ACTIVITY_END -->
 
 ---
@@ -97,7 +97,7 @@ const developer = {
 <div align="center">
 
 ![Profile Views](https://komarev.com/ghpvc/?username=quyansiyuanwang&color=58A6FF&style=flat-square)
-![Last Updated](https://img.shields.io/badge/Last%20Updated-July%202026-58A6FF?style=flat-square)
+![Last Updated](https://img.shields.io/badge/Last%20Updated-August%202026-58A6FF?style=flat-square)
 
 ⭐️ From [quyansiyuanwang](https://github.com/quyansiyuanwang)
 
