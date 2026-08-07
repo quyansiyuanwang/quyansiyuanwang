@@ -60,14 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📦 在 Quyan-AppServer 合并并关闭了 6 个 PR（#170-#175），完成了一波集中的服务端改动
+🚀 在 Quyan-AppServer 合并并创建了 PR #170-#175，持续推进后端功能迭代
 
-🎹 在 GenshinImpactPianoPlayer 仓库合并了 PR #5 和 #6，推进了原神钢琴演奏工具的功能迭代
+🎹 在 GenshinImpactPianoPlayer 合并并创建了 PR #5 和 #6，完善原神弹琴工具
+✅ 所有 PR 均已成功合并，工作流程顺畅无阻塞
 
-🔄 每个 PR 均严格按照「创建→合并」流程闭环操作，确保代码变更在当天全部落地
+📦 聚焦于 Quyan-AppServer 的后端服务优化，已完成 6 个 PR 的闭环
 
-🚀 重点完成了 Quyan-AppServer 的服务端功能更新，涉及 6 个连续版本迭代
-✅ 所有涉及仓库均无遗留 PR 或未合并冲突，保持了干净的提交历史
+🗂️ 在 GenshinImpactPianoPlayer 新增 2 个 PR，推动了该仓库的功能扩展
 <!-- ACTIVITY_END -->
 
 ---
