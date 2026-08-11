@@ -60,14 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 合并 PR #192-#189 至 quyansiyuanwang/Quyan-AppServer，连续完成 4 个功能集成。  
+🚀 合并了 PR #189-#196（共 8 个）至 quyansiyuanwang/Quyan-AppServer，完成一批功能更新  
 
-🔧 在 Quyan-AppServer 创建并合并 PR #188 与 #187，修复相关服务端模块。  
+🌿 新建分支 feature/multi-domain，着手多域名支持开发  
 
-🎹 处理 quyansiyuanwang/GenshinImpactPianoPlayer 的 PR #7，完成钢琴演奏器更新。  
+🔀 创建并合并 PR #193-#196，这些提交聚焦于关键模块的优化与修复  
 
-📦 两天内高效流转 8 个 PR（创建+合并），保持 Quyan-AppServer 主分支稳定推进。  
-✅ 所有合并操作均无标题，直接进入生产分支，验证通过后同步提交。
+📦 连续处理 PR #190-#192，涉及服务端稳定性增强  
+
+🗂️ 统一管理 8/9-8/10 的 PR 生命周期，确保代码质量与主线同步
 <!-- ACTIVITY_END -->
 
 ---
