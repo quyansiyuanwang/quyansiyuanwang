@@ -60,11 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔀 在 quyansiyuanwang/Quyan-AppServer 创建了 feature/multi-domain 分支（8/11 和 8/10 各一次）
-✅ 合并了 PR #196（8/10），无标题
-✅ 合并了 PR #195（8/10），无标题
-✅ 合并了 PR #194（8/10），无标题
-✅ 合并了 PR #193、#192、#191、#190（8/9-8/10），均为无标题
+🔀 本周在 quyansiyuanwang/Quyan-AppServer 创建并合入了 PR #190-#197，密集推进了多域名功能相关改动
+
+🌿 新建了 feature/multi-domain 分支（8/10、8/11 两次操作），作为多域名支持开发的独立主线
+✅ 在 8/10 单日连续合入了 PR #193-#196 四个 PR，快速迭代并稳定了该功能的基础实现
+
+📦 8/9 也完成了 PR #190-#192 的合并，逐步完善了后续的功能逻辑
+
+🔄 目前多域名功能已完成多轮 PR 合并，代码已进入稳定累积阶段，为后续提测或发布做好了准备
 <!-- ACTIVITY_END -->
 
 ---
