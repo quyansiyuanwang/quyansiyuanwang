@@ -60,14 +60,11 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔀 合并了 quyansiyuanwang/Quyan-AppServer 的 #207、#206、#205、#204、#203 共 5 个 PR并同步创建，涵盖多个功能或修复提交。  
-
-🔀 合并了 quyansiyuanwang/GenshinImpactPianoPlayer 的 #8 PR，完成了对应功能的集成。  
-
-🔀 在 Quyan-AppServer 中额外合并了 #199 和 #202，其中 #202 先创建后合并，流程完整。  
-
-📦 今日共处理 8 个 PR（6 个合并 + 2 个新开），集中在两个仓库的迭代推进。  
-✅ 所有 PR 均无标题，但已全部成功合入主分支，无遗留阻塞项。
+✅ 合并 PR #211 至 quyansiyuanwang/Quyan-AppServer  
+✅ 合并 PR #210 至 quyansiyuanwang/Quyan-AppServer  
+✅ 合并 PR #209 至 quyansiyuanwang/Quyan-AppServer  
+✅ 合并 PR #208 及 PR #8 至 GenshinImpactPianoPlayer  
+✅ 完成 PR #207、#206、#205 的创建与合并
 <!-- ACTIVITY_END -->
 
 ---
