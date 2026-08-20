@@ -60,14 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔀 合并并创建了 PR #227-#233（共7个）于 quyansiyuanwang/Quyan-AppServer，全部标注为无标题。  
+🔀 合并了 PR #236 到 quyansiyuanwang/Quyan-AppServer，完成相关功能上线
 
-🌿 在 quyansiyuanwang/SmartSale 仓库创建了 main 分支。  
+🔀 合并了 PR #235 到 quyansiyuanwang/Quyan-AppServer，修复了对应问题
 
-📦 今日集中处理了 AppServer 的批量合并请求，涉及多个无标题的 PR 流程。  
+🔀 合并了 PR #234 到 quyansiyuanwang/Quyan-AppServer，完成了对应改动
 
-🔄 每个 PR 均遵循创建后立即合并的节奏，保持了高效的迭代速度。  
-✅ 同时在 SmartSale 启动了新分支，为后续开发或集成奠定了基础。
+🔀 合并了 PR #233 到 quyansiyuanwang/Quyan-AppServer，完成相关优化
+
+🔀 合并了 PR #232 到 quyansiyuanwang/Quyan-AppServer，修复了对应缺陷
 <!-- ACTIVITY_END -->
 
 ---
