@@ -60,15 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔀 合并了 PR #236 到 quyansiyuanwang/Quyan-AppServer，完成相关功能上线
+🔀 合并 PR #238 于 quyansiyuanwang/Quyan-AppServer，完成对应功能开发。  
 
-🔀 合并了 PR #235 到 quyansiyuanwang/Quyan-AppServer，修复了对应问题
+🚀 创建并合并 PR #237，推进接口层优化与逻辑调整。  
 
-🔀 合并了 PR #234 到 quyansiyuanwang/Quyan-AppServer，完成了对应改动
+🛠️ 处理 PR #236，修复服务端若干缺陷并完善兼容性。  
 
-🔀 合并了 PR #233 到 quyansiyuanwang/Quyan-AppServer，完成相关优化
-
-🔀 合并了 PR #232 到 quyansiyuanwang/Quyan-AppServer，修复了对应缺陷
+📦 合并 PR #235，补充业务模块更新以提升处理效率。  
+✅ 完成 PR #234 合并，确保提交稳定并入主干代码。
 <!-- ACTIVITY_END -->
 
 ---
