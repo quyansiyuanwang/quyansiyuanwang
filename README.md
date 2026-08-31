@@ -60,15 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🗑️ 关闭了 AgentForge 的 PR #1-#9（无标题）  
+🎯 创建了 quyansiyuanwang/AgentForge 的 master 分支  
 
-🔀 合并并创建了 GenshinImpactPianoPlayer 的 PR #10  
+🔒 关闭了 AgentForge 仓库 PR #1-#9（共 9 个，均无标题）  
+✅ 合并了 quyansiyuanwang/GenshinImpactPianoPlayer 的 PR #10  
 
-🔀 合并并创建了 Quyan-AppServer 的 PR #266  
-
-🔀 合并了 Quyan-AppServer 的 PR #265  
-
-📦 今天主要清理 AgentForge 旧 PR，并在两个仓库推进了合并工作。
+🧹 清理了 AgentForge 中重复/无效的 PR 提交流程  
+⚙️ 维护了两个仓库的 Pull Request 状态，确保分支整洁
 <!-- ACTIVITY_END -->
 
 ---
