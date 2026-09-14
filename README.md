@@ -60,15 +60,12 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 修复了 `api-gateway` 仓库中 #482 的 JWT 刷新死循环问题，提交 `a1b2c3d`
+🚀 在 quyansiyuanwang/Nodara 创建了 master 分支  
+✅ 在 quyansiyuanwang/Quyan-AppServer 合并了 PR #317  
+✅ 在 quyansiyuanwang/Quyan-AppServer 合并了 PR #316  
+✅ 在 quyansiyuanwang/Quyan-AppServer 合并了 PR #315  
 
-📦 在 `data-pipeline` 仓库升级了 Flink 到 1.19，并解决了 #157 的 checkpoint 超时
-
-🚀 为 `web-client` 仓库的 PR #309 实现了懒加载路由，首屏体积减少 34%
-
-🐛 在 `user-service` 仓库定位并回滚了 commit `e4f5g6h` 导致的连接池泄漏
-
-📝 更新了 `infra-docs` 仓库的 K8s 部署指南，补充了 #88 中要求的资源限制模板
+📌 同期创建了 PR #317、#316 并完成合并
 <!-- ACTIVITY_END -->
 
 ---
