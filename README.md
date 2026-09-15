@@ -60,12 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 在 quyansiyuanwang/Nodara 创建了 master 分支  
-✅ 在 quyansiyuanwang/Quyan-AppServer 合并了 PR #317  
-✅ 在 quyansiyuanwang/Quyan-AppServer 合并了 PR #316  
-✅ 在 quyansiyuanwang/Quyan-AppServer 合并了 PR #315  
+🚀 在 quyansiyuanwang/Quyan-AppServer 创建并合并 PR #318、#319、#320、#321
 
-📌 同期创建了 PR #317、#316 并完成合并
+🌿 在 quyansiyuanwang/AgentForge 创建分支 release/v0.1.0-prep
+
+📦 以上工作集中在 2026/9/14 完成，涉及 Quyan-AppServer 的多个 PR 合入
+
+🔧 分支 release/v0.1.0-prep 于 2026/9/12 创建，用于版本发布准备
+✅ 当日累计完成 4 个 PR 的创建与合并
 <!-- ACTIVITY_END -->
 
 ---
