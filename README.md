@@ -60,14 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 在 quyansiyuanwang/Quyan-AppServer 创建并合并 PR #318、#319、#320、#321
+🔥 在 quyansiyuanwang/Quyan-AppServer 合并了 PR #319～#323
 
-🌿 在 quyansiyuanwang/AgentForge 创建分支 release/v0.1.0-prep
+📦 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #318～#323
 
-📦 以上工作集中在 2026/9/14 完成，涉及 Quyan-AppServer 的多个 PR 合入
+🌿 在 quyansiyuanwang/AgentForge 创建了分支 release/v0.1.0-prep
 
-🔧 分支 release/v0.1.0-prep 于 2026/9/12 创建，用于版本发布准备
-✅ 当日累计完成 4 个 PR 的创建与合并
+📅 最近工作集中在 2026/9/14–9/16，以 Quyan-AppServer 的 PR 为主
 <!-- ACTIVITY_END -->
 
 ---
