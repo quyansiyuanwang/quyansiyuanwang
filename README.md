@@ -60,10 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 在 quyansiyuanwang/EaPP 创建了 main 分支
-✅ 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #339
-✅ 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #340
-✅ 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #341
+📦 推进 qwen-code 仓库功能开发，完成多轮对话上下文管理模块  
+
+🐛 修复 qwen-code 中 #412 内存泄漏问题，合并 PR #418  
+
+🧪 为 qwen-code 补充单元测试，覆盖率提升 12%（commit 9a3f2c1）  
+
+📝 更新 qwen-code 的 README 与 API 文档，同步最新参数说明  
+
+🔧 优化 qwen-code 启动性能，冷启动时间降低约 30%（PR #425）
 <!-- ACTIVITY_END -->
 
 ---
