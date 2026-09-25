@@ -60,13 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📦 在 quyansiyuanwang/Quyan-AppServer 合并了 PR #348 和 PR #347（均无标题）
+📦 merged PR #350 到 quyansiyuanwang/Quyan-AppServer，标题未标注  
 
-🛠️ 在 quyansiyuanwang/Quyan-AppServer 创建了 PR #348 和 PR #347（均无标题）
+📝 改动内容未提供，需补充具体模块或文件  
 
-🌿 在 quyansiyuanwang/GenshinLyreTranscriber 创建了分支 main
+🔍 无关联 Issue 号，建议后续关联以便追溯  
 
-🐙 在 rustdesk/rustdesk 创建了 PR #16323（无标题）
+🛠️ 仓库名 quyansiyuanwang/Quyan-AppServer 拼写疑似有误，请核对
 <!-- ACTIVITY_END -->
 
 ---
