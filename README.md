@@ -60,15 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🛠️ 完成 ledger-service 仓库的 issue #482：修复分页查询在 offset > 1000 时的超时问题，已合并 PR #513
+🚀 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #351
 
-📦 推进 data-pipeline 仓库的 r2.4.0 发版准备，更新 CHANGELOG 并处理 3 个依赖升级 commit
+🚀 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #352
 
-🔍 排查 auth-gateway 仓库的 JWT 过期误判 bug，定位到 clock skew 未配置，提交 PR #209
+🚀 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #353
 
-🧪 为 user-profile 仓库补充了 12 个单元测试，覆盖地址校验和手机号格式化逻辑，coverage 从 74% 提升到 89%
+🚀 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #354
 
-📝 评审了 notification-center 仓库的 PR #341，建议将重试逻辑从固定间隔改为指数退避并已通过
+🚀 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #355
 <!-- ACTIVITY_END -->
 
 ---
