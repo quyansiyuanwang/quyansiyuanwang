@@ -60,15 +60,12 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔀 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #355
+🚀 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #355  
 
-🔀 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #354
+📦 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #354  
 
-🔀 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #353
-
-🔀 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #352
-
-🔀 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #351
+🛠️ 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #353  
+✅ 在 quyansiyuanwang/Quyan-AppServer 创建并合并了 PR #352
 <!-- ACTIVITY_END -->
 
 ---
