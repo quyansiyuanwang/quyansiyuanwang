@@ -60,14 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📦 在 `web-app` 仓库合并 PR #342，新增 OAuth2 登录支持并补充集成测试  
+🔀 合并了 quyansiyuanwang/Quyan-AppServer 的 PR #375、#374、#373（10/5）
 
-🐛 修复 `api-server` 的 issue #118，解决分页查询在空结果时返回 500 的问题  
-⚙️ 为 `data-pipeline` 增加 GitHub Actions 缓存，CI 耗时从 8 分钟降到 3 分钟  
+📝 创建并合并了 PR #372，仓库为 quyansiyuanwang/Quyan-AppServer
+✅ 合并了 PR #370 和 #371，均在 quyansiyuanwang/Quyan-AppServer
 
-📝 更新 `docs` 仓库的部署文档，补充 Docker Compose 环境变量说明  
+📅 10/5 集中完成 #373~#375 的创建与合并流程
 
-🔍 评审 `mobile-sdk` 的 PR #77，提出 4 条关于线程安全和重试逻辑的修改建议
+🗂️ 10/4 完成 #370~#372 的 PR 创建与合并
 <!-- ACTIVITY_END -->
 
 ---
