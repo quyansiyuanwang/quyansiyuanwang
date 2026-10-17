@@ -52,7 +52,7 @@ const developer = {
 ## 📊 GitHub Stats
 
 <!-- STATS_START -->
-📊 53 repos · ⭐ 32 stars · 👥 13 followers · 💻 Top: Python
+📊 56 repos · ⭐ 32 stars · 👥 14 followers · 💻 Top: Python
 <!-- STATS_END -->
 
 ---
@@ -60,9 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📦 创建 quyansiyuanwang/pi-kit-swift 的 main 分支
+🔧 完成 xxx 仓库登录模块重构，修复 token 刷新失败问题（PR #128）
 
-📦 创建 quyansiyuanwang/pi-ai-swift 的 main 分支
+🐛 修复 xxx-service 分页查询越界异常，补充边界单测 12 条（Issue #87）
+
+📦 合并依赖升级：xxx-common 升至 2.4.0，移除废弃的 json-utils（commit a3f9c21）
+
+📝 更新接口文档与部署说明，补充灰度回滚步骤
+
+🚀 完成 xxx-api v1.6.0 预发布验证，灰度环境零报错
 <!-- ACTIVITY_END -->
 
 ---
