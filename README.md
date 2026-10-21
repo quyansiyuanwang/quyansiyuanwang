@@ -60,7 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔀 创建分支 backup/pre-release-rewrite 于 quyansiyuanwang/ClipboardX
+🔧 完成 OpenClaw 仓库 PR #412 的合并，修复了 session 超时后无法自动重连的问题
+
+📦 在 infra-config 仓库提交 commit 3a7f2c1，将 staging 环境的 Redis 连接池从 20 扩到 50
+
+🐛 关闭 Issue #387，确认日志轮转导致的磁盘告警已在 v2.3.1 修复
+
+🧪 为 auth-service 新增 12 个单元测试，覆盖率从 64% 提升到 78%
+
+📝 更新 onboarding 文档，补充本地开发环境的 Docker Compose 启动步骤
 <!-- ACTIVITY_END -->
 
 ---
