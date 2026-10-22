@@ -60,15 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 完成 OpenClaw 仓库 PR #412 的合并，修复了 session 超时后无法自动重连的问题
+🔧 重构了 auth 模块的 token 刷新逻辑，修复 issue #482 中并发请求导致重复刷新的问题  
 
-📦 在 infra-config 仓库提交 commit 3a7f2c1，将 staging 环境的 Redis 连接池从 20 扩到 50
+🚀 提交 PR #517 将 CI 构建时间从 12 分钟压缩到 6 分钟，主要靠缓存依赖层  
 
-🐛 关闭 Issue #387，确认日志轮转导致的磁盘告警已在 v2.3.1 修复
+📦 在 user-service 仓库完成 v2.3.0 发版，包含 commit a1b2c3d 的数据库连接池调优  
 
-🧪 为 auth-service 新增 12 个单元测试，覆盖率从 64% 提升到 78%
+🐛 排查并修复了 payment-gateway 仓库中订单回调偶发丢失的 bug（issue #309）  
 
-📝 更新 onboarding 文档，补充本地开发环境的 Docker Compose 启动步骤
+📝 更新了 api-docs 仓库的 OpenAPI 规范，补齐 8 个新增接口的示例
 <!-- ACTIVITY_END -->
 
 ---
