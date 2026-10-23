@@ -60,15 +60,7 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 重构了 auth 模块的 token 刷新逻辑，修复 issue #482 中并发请求导致重复刷新的问题  
-
-🚀 提交 PR #517 将 CI 构建时间从 12 分钟压缩到 6 分钟，主要靠缓存依赖层  
-
-📦 在 user-service 仓库完成 v2.3.0 发版，包含 commit a1b2c3d 的数据库连接池调优  
-
-🐛 排查并修复了 payment-gateway 仓库中订单回调偶发丢失的 bug（issue #309）  
-
-📝 更新了 api-docs 仓库的 OpenAPI 规范，补齐 8 个新增接口的示例
+📦 创建 PR #3 于 quyansiyuanwang/docksnap
 <!-- ACTIVITY_END -->
 
 ---
