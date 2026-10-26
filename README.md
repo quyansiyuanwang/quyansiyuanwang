@@ -60,9 +60,11 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📌 创建 PR #384（quyansiyuanwang/Quyan-AppServer）
+📦 在 quyansiyuanwang/Quyan-AppServer 创建 PR #384（暂无标题）
 
-🌿 创建 feat/auto-changelog 分支（quyansiyuanwang/docksnap）
+🌿 在 quyansiyuanwang/docksnap 创建分支 feat/auto-changelog
+
+🗓️ 工作集中在 10/23–10/24 两天，涉及 AppServer 与 docksnap 两个仓库
 <!-- ACTIVITY_END -->
 
 ---
