@@ -60,13 +60,9 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 创建 PR #384（quyansiyuanwang/Quyan-AppServer，无标题）
+🔧 创建 PR #384（quyansiyuanwang/Quyan-AppServer），暂无标题，待补充描述
 
-📝 该 PR 当前无标题，建议补充明确描述以便评审
-
-👀 待补充变更内容与关联 Issue 信息
-
-🚀 后续跟进 PR #384 的评审与合并
+📝 补充 PR #384 标题与说明，明确变更目的
 <!-- ACTIVITY_END -->
 
 ---
