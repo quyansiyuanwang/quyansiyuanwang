@@ -60,9 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 创建 PR #384（quyansiyuanwang/Quyan-AppServer），暂无标题，待补充描述
+🛠️ 在 quyansiyuanwang/Quyan-AppServer 创建并合并 PR #388、#390、#391，完成本轮变更
 
-📝 补充 PR #384 标题与说明，明确变更目的
+📝 关闭 PR #389 并在 Issue #389 说明其被取代，以符合 dev → staging → master 的晋级流程
+
+🔁 在 Issue #388 记录发布流程历史更正，原直接合入 master 的合并仅保留为审计记录
+
+🏷️ 对 PR #388、#389、#390、#391 批量调整标签（labeled/unlabeled）以反映状态
+
+📦 本轮工作集中在规范发布流程与 PR 流转，未涉及具体代码细节（PR 标题均为空）
 <!-- ACTIVITY_END -->
 
 ---
