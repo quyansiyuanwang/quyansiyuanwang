@@ -60,15 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🛠️ 在 quyansiyuanwang/Quyan-AppServer 创建并合并 PR #388、#390、#391，完成本轮变更
+🔧 在 TunneldeDev/Tunnelde 关闭 PR #1–#6 并逐条在 Issue #1–#6 记录暂缓原因（stale v11、checkout v7、tauri-action v1、sysinfo 0.39 需 rustc 1.95、@types/node 跟随 Node 24 等）
 
-📝 关闭 PR #389 并在 Issue #389 说明其被取代，以符合 dev → staging → master 的晋级流程
+🌿 在 quyansiyuanwang/Quyan-AppServer 创建 backup/release-flow-20261029-master-d44c9797、backup/release-flow-20261029-dev-e615933e、fix/mysql57-platform-metadata-20261029、fix/iam-migration-shared-actions-20261029 四个分支
 
-🔁 在 Issue #388 记录发布流程历史更正，原直接合入 master 的合并仅保留为审计记录
+📌 在 Quyan-AppServer Issue #387/#388/#389 说明 release-flow 历史更正：直连 master 的合并仅作审计记录，改为走 dev → staging → master 流程
+✅ 在 Quyan-AppServer 合并 PR #391 并完成打标签/去标签操作
 
-🏷️ 对 PR #388、#389、#390、#391 批量调整标签（labeled/unlabeled）以反映状态
-
-📦 本轮工作集中在规范发布流程与 PR 流转，未涉及具体代码细节（PR 标题均为空）
+📝 在 Tunnelde 就 Issue #2 评论 stale v11 属需单独验证的大版本升级
 <!-- ACTIVITY_END -->
 
 ---
