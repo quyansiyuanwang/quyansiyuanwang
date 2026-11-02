@@ -60,18 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🛠️ 完成 pr-agent 仓库的配置重构，将分散的配置项统一到 .secrets.toml 与动态配置加载逻辑
+🔧 重构了 auth-service 的登录鉴权流程，拆出独立 token 校验模块，减少重复代码约 300 行
 
+🐛 修复了 payment-gateway 的 Issue #482，解决并发下单时库存扣减超卖问题
+✨ 在 data-pipeline 仓库新增 Kafka 消费重试机制，PR #156 已合并到 main
 
-🐛 修复 PR #1287 中 /review 命令在 diff 过大时被截断的问题，改为分段解析并保留上下文摘要
+📝 更新了 api-gateway 的 OpenAPI 文档，补齐 12 个缺失的错误码说明
 
-
-📦 合并社区 PR #1302，新增对 DeepSeek 模型的支持，并更新默认模型列表与文档
-
-✅ 为 Issue #1265 补充单元测试，覆盖配置加载失败与无效 API key 的降级路径
-
-
-📝 更新 CONTRIBUTING.md 与配置文件示例，补充新增字段说明及本地调试步骤
+🚀 完成 web-portal 的 CI 缓存优化，构建时间从 8 分钟降到 3 分钟（commit a3f9c2e）
 <!-- ACTIVITY_END -->
 
 ---
