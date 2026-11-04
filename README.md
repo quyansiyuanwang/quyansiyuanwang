@@ -60,15 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📦 在 TunneldeDev/Tunnelde 创建并合并了 PR #11、#13、#14、#15
+🔧 在 TunneldeDev/Tunnelde 创建 fix/maa-release-pipeline 和 fix/preserve-release-history 两个修复分支
 
-🌿 在 TunneldeDev/Tunnelde-hub 创建了 main 分支
+🚀 向 TunneldeDev/Tunnelde 提交 PR #24、#25、#26、#28，其中 #22、#25、#26 已合并，#24 已关闭
 
-🔀 合并了 quyansiyuanwang/docksnap 的 PR #3
+📦 在 TunneldeDev/Tunnelde-hub 创建 PR #2
 
-🏷️ 为 TunneldeDev/Tunnelde 的 PR #13 添加了标签
-
-🧹 取消了 quyansiyuanwang/Quyan-AppServer 中 PR #394 的多个标签
+🏷️ 为 quyansiyuanwang/Quyan-AppServer 的 PR #400 创建并添加多个标签
 <!-- ACTIVITY_END -->
 
 ---
