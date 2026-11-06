@@ -52,7 +52,7 @@ const developer = {
 ## 📊 GitHub Stats
 
 <!-- STATS_START -->
-📊 56 repos · ⭐ 33 stars · 👥 15 followers · 💻 Top: Python
+📊 56 repos · ⭐ 33 stars · 👥 14 followers · 💻 Top: Python
 <!-- STATS_END -->
 
 ---
@@ -60,12 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 在 TunneldeDev/Tunnelde 合并 PR #55、#56、#57、#58、#59、#60，并创建了分支 feat/storage-locations
+🚀 在 TunneldeDev/Tunnelde 创建 PR #86 和 #85
+✅ 合并 TunneldeDev/Tunnelde 的 PR #84、#83、#82
+🆕 创建并合并 TunneldeDev/Tunnelde-hub 的 PR #29
 
-🌐 在 TunneldeDev/Tunnelde-hub 创建了分支 feat/sshfs-plugins
+📦 同日在 Tunnelde 仓库完成 PR #82-#86 的创建与合并循环
 
-💾 在 TunneldeDev/Tunnelde 创建了分支 feat/network-storage
-⚙️ 在 TunneldeDev/Tunnelde 创建了分支 ci/dev-nightly-release
+🔁 累计处理两个仓库共 10 次 PR 操作
 <!-- ACTIVITY_END -->
 
 ---
