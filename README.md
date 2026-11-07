@@ -60,13 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 在 TunneldeDev/Tunnelde 创建 PR #86 和 #85
-✅ 合并 TunneldeDev/Tunnelde 的 PR #84、#83、#82
-🆕 创建并合并 TunneldeDev/Tunnelde-hub 的 PR #29
+🔧 在 TunneldeDev/Tunnelde 创建 fix/windows-move-guards、fix/local-rename-atomic、fix/release-history-reads、fix/transfer-artifact-file-cleanup 分支
 
-📦 同日在 Tunnelde 仓库完成 PR #82-#86 的创建与合并循环
+🚀 在 TunneldeDev/Tunnelde-agent 创建 PR #1（无标题）
+✅ 在 TunneldeDev/Tunnelde 合并 PR #123、#124、#125（均无标题）
 
-🔁 累计处理两个仓库共 10 次 PR 操作
+📝 在 TunneldeDev/Tunnelde 创建 PR #123、#124、#125（均无标题）
+
+🛠️ 在 TunneldeDev/Tunnelde-hub 创建 fix/claude-readiness、fix/agent-command-output 分支
 <!-- ACTIVITY_END -->
 
 ---
