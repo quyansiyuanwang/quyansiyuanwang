@@ -60,14 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 在 TunneldeDev/Tunnelde 创建 fix/windows-move-guards、fix/local-rename-atomic、fix/release-history-reads、fix/transfer-artifact-file-cleanup 分支
-
-🚀 在 TunneldeDev/Tunnelde-agent 创建 PR #1（无标题）
-✅ 在 TunneldeDev/Tunnelde 合并 PR #123、#124、#125（均无标题）
-
-📝 在 TunneldeDev/Tunnelde 创建 PR #123、#124、#125（均无标题）
-
-🛠️ 在 TunneldeDev/Tunnelde-hub 创建 fix/claude-readiness、fix/agent-command-output 分支
+- 
+🚀 在 TunneldeDev/Tunnelde 创建并合并了 PR #157、#158
+- 
+🧩 在 TunneldeDev/Tunnelde-hub 创建并合并了 PR #46
+- 
+🌿 在 Tunnelde 创建分支 feat/plugin-core-contracts、fix/file-resize-lifecycle
+- 
+🌿 在 Tunnelde-hub 创建分支 fix/codex-protocol-policy、feat/jsonl-log-viewer
 <!-- ACTIVITY_END -->
 
 ---
