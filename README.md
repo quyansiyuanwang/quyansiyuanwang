@@ -60,14 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-- 
-🚀 在 TunneldeDev/Tunnelde 创建并合并了 PR #157、#158
-- 
-🧩 在 TunneldeDev/Tunnelde-hub 创建并合并了 PR #46
-- 
-🌿 在 Tunnelde 创建分支 feat/plugin-core-contracts、fix/file-resize-lifecycle
-- 
-🌿 在 Tunnelde-hub 创建分支 fix/codex-protocol-policy、feat/jsonl-log-viewer
+🔀 合并了 TunneldeDev/Tunnelde 的 PR #192、#191、#190
+
+🔀 合并了 TunneldeDev/Tunnelde-hub 的 PR #56、#55、#54
+
+🌿 在 TunneldeDev/Tunnelde 创建了 fix/task-output-diagnostics、fix/search-path-identity、fix/plugin-transfer-cleanup、fix/resume-prefix-integrity、fix/guarded-directory-moves 分支
+
+🌿 在 TunneldeDev/Tunnelde-hub 创建了 docs/ssh-agent-acceptance 分支
+
+📬 在 quyansiyuanwang/Quyan-AppServer 创建了 PR #403
 <!-- ACTIVITY_END -->
 
 ---
