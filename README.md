@@ -60,15 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔀 合并了 TunneldeDev/Tunnelde 的 PR #192、#191、#190
+🚀 在 TunneldeDev/Tunnelde 合并 PR #237–#241，并新建分支 feat/plugin-event-contract 与 refactor/host-domain-services
 
-🔀 合并了 TunneldeDev/Tunnelde-hub 的 PR #56、#55、#54
+🔧 在 TunneldeDev/Tunnelde-hub 合并 PR #74–#77
 
-🌿 在 TunneldeDev/Tunnelde 创建了 fix/task-output-diagnostics、fix/search-path-identity、fix/plugin-transfer-cleanup、fix/resume-prefix-integrity、fix/guarded-directory-moves 分支
+📦 两个仓库共完成 9 个 PR 的创建与合并，集中在 11/9–11/10
 
-🌿 在 TunneldeDev/Tunnelde-hub 创建了 docs/ssh-agent-acceptance 分支
+🌿 新建 2 个功能/重构分支：feat/plugin-event-contract、refactor/host-domain-services
 
-📬 在 quyansiyuanwang/Quyan-AppServer 创建了 PR #403
+📝 所有 PR 均为无标题合并，涉及 Tunnelde 与 Tunnelde-hub 主仓库
 <!-- ACTIVITY_END -->
 
 ---
