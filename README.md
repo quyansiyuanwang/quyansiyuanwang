@@ -60,14 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 在 TunneldeDev/Tunnelde 创建 fix/quoted-search-filters 分支，并完成 PR #265～#269 的创建与合并
+🚀 在 TunneldeDev/Tunnelde 合并了 PR #297、#298、#299、#300
 
-🚀 在 TunneldeDev/Tunnelde-agent 完成 PR #3、#4 的创建与合并
+🌿 在 Tunnelde 创建了 feat/runner-recovery-lifecycle、feat/preferences-ui-provider、chore/repository-layout-cleanup、feat/file-preview-domain 分支
 
-🖥️ 在 TunneldeDev/Tunnelde 创建 feat/plugin-terminal-surface 分支
-⚙️ 在 TunneldeDev/Tunnelde 创建 feat/preferences-contract 分支
+📦 在 TunneldeDev/Tunnelde-agent 创建了 release/0.27.0 分支
 
-🧩 在 TunneldeDev/Tunnelde-hub 创建 feat/preferences-ui-provider 分支，并完成 PR #95、#96 的创建与合并
+📝 在 TunneldeDev/Tunnelde-hub 创建了 docs/language-layout 分支
 <!-- ACTIVITY_END -->
 
 ---
