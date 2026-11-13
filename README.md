@@ -60,13 +60,12 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 在 TunneldeDev/Tunnelde 合并了 PR #297、#298、#299、#300
+🌿 在 TunneldeDev/Tunnelde 和 Tunnelde-hub 创建了 feat/release-target、feat/storage-observation、feat/storage-recovery-sdk、feat/profile-observation、fix/storage-recovery-intent 等分支
 
-🌿 在 Tunnelde 创建了 feat/runner-recovery-lifecycle、feat/preferences-ui-provider、chore/repository-layout-cleanup、feat/file-preview-domain 分支
-
-📦 在 TunneldeDev/Tunnelde-agent 创建了 release/0.27.0 分支
-
-📝 在 TunneldeDev/Tunnelde-hub 创建了 docs/language-layout 分支
+🔀 在 TunneldeDev/Tunnelde 关闭了 PR #324，并处理了 PR #324 的重开
+✅ 合并了 TunneldeDev/Tunnelde 的 PR #318
+✅ 合并了 TunneldeDev/Tunnelde 的 PR #322
+✅ 合并了 TunneldeDev/Tunnelde 的 PR #323、#325、#326
 <!-- ACTIVITY_END -->
 
 ---
