@@ -60,12 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🌿 在 TunneldeDev/Tunnelde 和 Tunnelde-hub 创建了 feat/release-target、feat/storage-observation、feat/storage-recovery-sdk、feat/profile-observation、fix/storage-recovery-intent 等分支
+🚀 在 TunneldeDev/Tunnelde 合并了 PR #348，对应分支 fix/database-startup-preservation  
 
-🔀 在 TunneldeDev/Tunnelde 关闭了 PR #324，并处理了 PR #324 的重开
-✅ 合并了 TunneldeDev/Tunnelde 的 PR #318
-✅ 合并了 TunneldeDev/Tunnelde 的 PR #322
-✅ 合并了 TunneldeDev/Tunnelde 的 PR #323、#325、#326
+🧩 在 TunneldeDev/Tunnelde 合并了 PR #347 和 #346，对应分支 fix/remote-editor-late-replies、fix/remote-editor-workers  
+
+📁 在 TunneldeDev/Tunnelde 合并了 PR #345 和 #343，涉及 feat/file-save-host-protocol 与 fix/file-write-worker-lifetimes  
+
+🌱 在 TunneldeDev/Tunnelde-agent 创建了分支 feat/durable-file-save  
+✅ 上述 PR 均于 [2026/11/14] 完成创建与合并（PR 标题均为无标题）
 <!-- ACTIVITY_END -->
 
 ---
