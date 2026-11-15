@@ -60,14 +60,14 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 在 TunneldeDev/Tunnelde 合并了 PR #348，对应分支 fix/database-startup-preservation  
+📂 在 TunneldeDev/Tunnelde 创建了 4 个分支：feat/local-core-freeze、docs/local-contract-boundaries、fix/unattended-update-installer、fix/host-view-columns、fix/file-column-pointer-reorder
 
-🧩 在 TunneldeDev/Tunnelde 合并了 PR #347 和 #346，对应分支 fix/remote-editor-late-replies、fix/remote-editor-workers  
+🔀 创建并合并 PR #375 到 TunneldeDev/Tunnelde
 
-📁 在 TunneldeDev/Tunnelde 合并了 PR #345 和 #343，涉及 feat/file-save-host-protocol 与 fix/file-write-worker-lifetimes  
+🔀 创建并合并 PR #374 到 TunneldeDev/Tunnelde
 
-🌱 在 TunneldeDev/Tunnelde-agent 创建了分支 feat/durable-file-save  
-✅ 上述 PR 均于 [2026/11/14] 完成创建与合并（PR 标题均为无标题）
+🔀 创建并合并 PR #373 到 TunneldeDev/Tunnelde
+✅ 合并 PR #372、#368、#366 到 TunneldeDev/Tunnelde
 <!-- ACTIVITY_END -->
 
 ---
