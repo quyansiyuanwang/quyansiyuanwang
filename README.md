@@ -60,14 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📂 在 TunneldeDev/Tunnelde 创建了 4 个分支：feat/local-core-freeze、docs/local-contract-boundaries、fix/unattended-update-installer、fix/host-view-columns、fix/file-column-pointer-reorder
+🚀 在 TunneldeDev/Tunnelde 合并 PR #416、#415、#414，对应 feat/local-forwarding-mutations 等分支的本地转发改动
 
-🔀 创建并合并 PR #375 到 TunneldeDev/Tunnelde
+🔧 合并 PR #412、#411，涉及 fix/preference-reader-admission 与 fix/application-credential-scope 分支的权限与凭证范围修复
 
-🔀 创建并合并 PR #374 到 TunneldeDev/Tunnelde
+🛠️ 合并 PR #410、#409、#408，覆盖 fix/local-api-shutdown、fix/ssh-route-snapshot 等修复项
 
-🔀 创建并合并 PR #373 到 TunneldeDev/Tunnelde
-✅ 合并 PR #372、#368、#366 到 TunneldeDev/Tunnelde
+🌿 在 TunneldeDev/Tunnelde 新建 feat/local-forwarding-mutations、fix/preference-reader-admission、fix/local-api-shutdown、fix/application-credential-scope、fix/ssh-route-snapshot 分支
+
+📦 在 TunneldeDev/Tunnelde-agent 新建 chore/helper-0.28.2 分支，准备 helper 0.28.2 版本相关改动
 <!-- ACTIVITY_END -->
 
 ---
