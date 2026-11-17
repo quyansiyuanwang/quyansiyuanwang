@@ -60,15 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 在 TunneldeDev/Tunnelde 合并 PR #416、#415、#414，对应 feat/local-forwarding-mutations 等分支的本地转发改动
+📦 完成 gw-tools 仓库 v2.3.0 发版，修复 Issue #142 中配置加载顺序错误
 
-🔧 合并 PR #412、#411，涉及 fix/preference-reader-admission 与 fix/application-credential-scope 分支的权限与凭证范围修复
+🔀 合并 PR #156：重构 auth 模块 token 刷新逻辑，新增自动重试机制
 
-🛠️ 合并 PR #410、#409、#408，覆盖 fix/local-api-shutdown、fix/ssh-route-snapshot 等修复项
+🐛 修复 commit a3f9c21 引入的空指针异常，补充单元测试覆盖边界场景
 
-🌿 在 TunneldeDev/Tunnelde 新建 feat/local-forwarding-mutations、fix/preference-reader-admission、fix/local-api-shutdown、fix/application-credential-scope、fix/ssh-route-snapshot 分支
-
-📦 在 TunneldeDev/Tunnelde-agent 新建 chore/helper-0.28.2 分支，准备 helper 0.28.2 版本相关改动
+📝 更新 README 与 CHANGELOG，同步 v2.3.0 接口变更说明
 <!-- ACTIVITY_END -->
 
 ---
