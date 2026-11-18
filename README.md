@@ -60,13 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📦 完成 gw-tools 仓库 v2.3.0 发版，修复 Issue #142 中配置加载顺序错误
+🚀 在 TunneldeDev/Tunnelde 创建分支 feat/ssh-config-import，用于 SSH 配置导入
 
-🔀 合并 PR #156：重构 auth 模块 token 刷新逻辑，新增自动重试机制
+🐛 在 TunneldeDev/Tunnelde 创建分支 fix/editor-encoding-modified-save，修复编辑器编码修改后保存的问题
 
-🐛 修复 commit a3f9c21 引入的空指针异常，补充单元测试覆盖边界场景
+📁 在 TunneldeDev/Tunnelde 创建分支 fix/sftp-path-editor-current，修复 SFTP 路径编辑器当前项问题
 
-📝 更新 README 与 CHANGELOG，同步 v2.3.0 接口变更说明
+🎨 在 TunneldeDev/Tunnelde 创建分支 chore/unify-brand-remove-marketplace，统一品牌并移除 marketplace
+
+🖥️ 在 TunneldeDev/Tunnelde 创建分支 fix/editor-native-scrollbar，修复编辑器原生滚动条
 <!-- ACTIVITY_END -->
 
 ---
