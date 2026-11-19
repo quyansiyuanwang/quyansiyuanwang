@@ -60,15 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 在 TunneldeDev/Tunnelde 创建分支 feat/ssh-config-import，用于 SSH 配置导入
+🔀 合并 TunneldeDev/Tunnelde 的 PR #452，处理 Issue #452 中审查修复：保留各主机独立路由之间的有效跳板引用，新增双向引用迁移往返测试，修复 Windows CI 取消测试的时序竞态（用退出同步保留原容量断言，连跑 50 次通过）
 
-🐛 在 TunneldeDev/Tunnelde 创建分支 fix/editor-encoding-modified-save，修复编辑器编码修改后保存的问题
+🧭 针对 Issue #452 审查发现，将迁移依赖遍历改为有界去重遍历，保留跨主机的间接跳板引用配置，仅拒绝单条路由中的自身引用、重复跳板与缺失引用
 
-📁 在 TunneldeDev/Tunnelde 创建分支 fix/sftp-path-editor-current，修复 SFTP 路径编辑器当前项问题
+📦 在 quyansiyuanwang/Quyan-AppServer 创建 PR #409，并合并 PR #407、#408
 
-🎨 在 TunneldeDev/Tunnelde 创建分支 chore/unify-brand-remove-marketplace，统一品牌并移除 marketplace
+🧩 合并 TunneldeDev/Tunnelde 的 PR #449、#450、#451，并创建 PR #449、#450、#451
 
-🖥️ 在 TunneldeDev/Tunnelde 创建分支 fix/editor-native-scrollbar，修复编辑器原生滚动条
+🔌 在 TunneldeDev/Tunnelde-hub 合并 PR #112、#113，创建 PR #112、#113，并创建分支 feat/shared-mounts-plugin-sdk
 <!-- ACTIVITY_END -->
 
 ---
