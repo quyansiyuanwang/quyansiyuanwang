@@ -60,15 +60,19 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔀 合并 TunneldeDev/Tunnelde 的 PR #452，处理 Issue #452 中审查修复：保留各主机独立路由之间的有效跳板引用，新增双向引用迁移往返测试，修复 Windows CI 取消测试的时序竞态（用退出同步保留原容量断言，连跑 50 次通过）
+📌 在 TunneldeDev/Tunnelde 的 Issue #464 上持续推进原生视图与插件宿主相关改造，涉及 8a20068f、3deb007、cd2fbdb0、b557cee4、1f1b41f3、c00ca2a9 等多个 commit，始终保持 Draft 状态，不合并、不发布
 
-🧭 针对 Issue #452 审查发现，将迁移依赖遍历改为有界去重遍历，保留跨主机的间接跳板引用配置，仅拒绝单条路由中的自身引用、重复跳板与缺失引用
 
-📦 在 quyansiyuanwang/Quyan-AppServer 创建 PR #409，并合并 PR #407、#408
+🚀 创建并合并 PR #465，最终 head 为 fd92baa1，258 suites / 2257 tests 全通过，Rust 1781 + 7 集成与 Clippy 全通过，为内置工作区页面统一接入浮动 PanelFrame 展示
 
-🧩 合并 TunneldeDev/Tunnelde 的 PR #449、#450、#451，并创建 PR #449、#450、#451
 
-🔌 在 TunneldeDev/Tunnelde-hub 合并 PR #112、#113，创建 PR #112、#113，并创建分支 feat/shared-mounts-plugin-sdk
+🔀 创建并合并 PR #466，完成原生计时相关自审，覆盖 HTTP CONNECT/SOCKS 协商且 TCP 采样期间不发送应用层往返
+
+
+🛠️ 在 Issue #464 上完成原生窗口/面板 API 系列审计与推进，包括 workspace.windows.list/observe/create/close、workspace.panels.moveTo、ui.confirm / ui.showMessage 精确绑定及 source-document 原生面板迁移
+
+
+🌿 新建分支 feat/plugin-host-routes 用于后续插件宿主路由工作
 <!-- ACTIVITY_END -->
 
 ---
