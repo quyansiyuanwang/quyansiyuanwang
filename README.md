@@ -60,19 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-📌 在 TunneldeDev/Tunnelde 的 Issue #464 上持续推进原生视图与插件宿主相关改造，涉及 8a20068f、3deb007、cd2fbdb0、b557cee4、1f1b41f3、c00ca2a9 等多个 commit，始终保持 Draft 状态，不合并、不发布
+🎯 发布 v2.1.0 并完成 Issue #489 发布审查：exact-head CI 44865078510 全部五个 job 通过，验证发布 head 382b1fc16e5
 
+🔧 在 feat/native-settings-window 分支提交 PR #495 并合入，修复 macOS 验收发现的 preferences 工厂未注册及 factoryOwner 误用问题，补充回归测试
 
-🚀 创建并合并 PR #465，最终 head 为 fd92baa1，258 suites / 2257 tests 全通过，Rust 1781 + 7 集成与 Clippy 全通过，为内置工作区页面统一接入浮动 PanelFrame 展示
+🛡️ 在 feat/native-settings-security 分支提交并合入 PR #494，CI 首次仅 vendored SSH-agent 集成测试失败，其余通过
 
+📦 合入 PR #491、#492、#493，并创建 feat/native-file-resources 分支推进原生化改造
 
-🔀 创建并合并 PR #466，完成原生计时相关自审，覆盖 HTTP CONNECT/SOCKS 协商且 TCP 采样期间不发送应用层往返
-
-
-🛠️ 在 Issue #464 上完成原生窗口/面板 API 系列审计与推进，包括 workspace.windows.list/observe/create/close、workspace.panels.moveTo、ui.confirm / ui.showMessage 精确绑定及 source-document 原生面板迁移
-
-
-🌿 新建分支 feat/plugin-host-routes 用于后续插件宿主路由工作
+📝 响应 Issue #468 维护者要求，通过生成的 release 流程即时稳定交付已验收的最新源码
 <!-- ACTIVITY_END -->
 
 ---
