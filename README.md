@@ -52,7 +52,7 @@ const developer = {
 ## 📊 GitHub Stats
 
 <!-- STATS_START -->
-📊 56 repos · ⭐ 33 stars · 👥 14 followers · 💻 Top: Python
+📊 56 repos · ⭐ 33 stars · 👥 13 followers · 💻 Top: Python
 <!-- STATS_END -->
 
 ---
@@ -60,15 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🎯 发布 v2.1.0 并完成 Issue #489 发布审查：exact-head CI 44865078510 全部五个 job 通过，验证发布 head 382b1fc16e5
+🚀 在 TunneldeDev/Tunnelde 发布 v2.7.1 STABLE（Release v2.7.1），并同步发布 v2.7.1-beta.1
 
-🔧 在 feat/native-settings-window 分支提交 PR #495 并合入，修复 macOS 验收发现的 preferences 工厂未注册及 factoryOwner 误用问题，补充回归测试
+🔧 创建并合并 PR #517 修复 detached source 问题（Issue #468 中已说明 #517 fixed the detached source）
 
-🛡️ 在 feat/native-settings-security 分支提交并合入 PR #494，CI 首次仅 vendored SSH-agent 集成测试失败，其余通过
+📦 合并 PR #515，并在 Issue #468 中确认 v2.7.0 STABLE 公开（PR #515 merged normally）
 
-📦 合入 PR #491、#492、#493，并创建 feat/native-file-resources 分支推进原生化改造
+🌿 在 TunneldeDev/Tunnelde 创建分支 feat/native-host-metadata、feat/native-hosts-window、feat/resource-origin-admission
 
-📝 响应 Issue #468 维护者要求，通过生成的 release 流程即时稳定交付已验收的最新源码
+🧩 在 quyansiyuanwang/Quyan-AppServer 创建 PR #412
 <!-- ACTIVITY_END -->
 
 ---
