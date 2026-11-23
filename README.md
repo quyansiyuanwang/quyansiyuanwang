@@ -60,15 +60,13 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🚀 在 TunneldeDev/Tunnelde 发布 v2.7.1 STABLE（Release v2.7.1），并同步发布 v2.7.1-beta.1
+🌿 在 TunneldeDev/Tunnelde 创建 feat/native-workspace-actions 分支（2026/11/22）
 
-🔧 创建并合并 PR #517 修复 detached source 问题（Issue #468 中已说明 #517 fixed the detached source）
+🌿 在 TunneldeDev/Tunnelde 创建 feat/preview-coordinator、feat/native-task-providers 和 feat/terminal-handoff 三个分支（2026/11/20）
 
-📦 合并 PR #515，并在 Issue #468 中确认 v2.7.0 STABLE 公开（PR #515 merged normally）
+🌿 在 TunneldeDev/Tunnelde 创建 feat/native-admission-reads 分支（2026/11/21）
 
-🌿 在 TunneldeDev/Tunnelde 创建分支 feat/native-host-metadata、feat/native-hosts-window、feat/resource-origin-admission
-
-🧩 在 quyansiyuanwang/Quyan-AppServer 创建 PR #412
+🌿 在 TunneldeDev/Tunnelde 创建 refactor/plugin-examples-location 分支，用于重构插件示例的位置（2026/11/20）
 <!-- ACTIVITY_END -->
 
 ---
