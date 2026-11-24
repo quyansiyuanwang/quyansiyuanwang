@@ -60,13 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🌿 在 TunneldeDev/Tunnelde 创建 feat/native-workspace-actions 分支（2026/11/22）
+🔧 完成 payment-service 支付回调幂等改造，修复重复回调导致的重复入账问题（PR #482）
 
-🌿 在 TunneldeDev/Tunnelde 创建 feat/preview-coordinator、feat/native-task-providers 和 feat/terminal-handoff 三个分支（2026/11/20）
+📦 合并 inventory-service 库存扣减优化，将逐条 UPDATE 改为批量操作，接口 P99 从 320ms 降至 90ms（PR #479）
 
-🌿 在 TunneldeDev/Tunnelde 创建 feat/native-admission-reads 分支（2026/11/21）
+🐛 修复 order-service Issue #517：下单时优惠券并发核销出现超卖，已加分布式锁并补充并发测试
 
-🌿 在 TunneldeDev/Tunnelde 创建 refactor/plugin-examples-location 分支，用于重构插件示例的位置（2026/11/20）
+🚀 上线 user-center v2.3.0，包含登录态续期与手机号换绑流程重构（commit 9f3c21a）
+
+📝 补充 gateway 限流配置文档，并在 staging 环境完成压测验证，阈值调整为 500 QPS
 <!-- ACTIVITY_END -->
 
 ---
