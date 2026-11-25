@@ -60,15 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 完成 payment-service 支付回调幂等改造，修复重复回调导致的重复入账问题（PR #482）
+🔧 在 Tunnelde/Tunnelde 合并 PR #558、#559、#561、#566，覆盖 product-only stable releases、mount cancel settlement test 等修复分支
 
-📦 合并 inventory-service 库存扣减优化，将逐条 UPDATE 改为批量操作，接口 P99 从 320ms 降至 90ms（PR #479）
+🐛 为 TunneldeDebugger 创建并合并 PR #1、#2、#3
 
-🐛 修复 order-service Issue #517：下单时优惠券并发核销出现超卖，已加分布式锁并补充并发测试
+🌿 在 Tunnelde 创建 fix/product-only-stable-releases、fix/mount-cancel-settlement-test、codex/preview-syntax、codex/font-integration 等分支
 
-🚀 上线 user-center v2.3.0，包含登录态续期与手机号换绑流程重构（commit 9f3c21a）
+📦 在 Tunnelde-plugin-unix-permissions 创建 main 分支
 
-📝 补充 gateway 限流配置文档，并在 staging 环境完成压测验证，阈值调整为 500 QPS
+🚀 在 quyansiyuanwang/Quyan-AppServer 创建 PR #421
 <!-- ACTIVITY_END -->
 
 ---
