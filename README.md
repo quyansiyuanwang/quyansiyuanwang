@@ -60,15 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔧 在 Tunnelde/Tunnelde 合并 PR #558、#559、#561、#566，覆盖 product-only stable releases、mount cancel settlement test 等修复分支
+🔀 在 TunneldeDev/Tunnelde 合并 PR #567 和 #568
 
-🐛 为 TunneldeDebugger 创建并合并 PR #1、#2、#3
+🌿 创建分支 fix/scaled-scene-offset 于 TunneldeDev/TunneldeDebugger
 
-🌿 在 Tunnelde 创建 fix/product-only-stable-releases、fix/mount-cancel-settlement-test、codex/preview-syntax、codex/font-integration 等分支
+🌿 创建分支 fix/settings-group-scroll 于 TunneldeDev/Tunnelde
 
-📦 在 Tunnelde-plugin-unix-permissions 创建 main 分支
+🌿 创建分支 feat/debugger-workbench-controls 于 TunneldeDev/TunneldeDebugger
 
-🚀 在 quyansiyuanwang/Quyan-AppServer 创建 PR #421
+🌿 初始化 TunneldeDev/TunneldeDebugger 的 main 分支
 <!-- ACTIVITY_END -->
 
 ---
