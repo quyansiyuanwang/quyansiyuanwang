@@ -60,15 +60,15 @@ const developer = {
 ## 🔥 Recent Activity
 
 <!-- ACTIVITY_START -->
-🔀 在 TunneldeDev/Tunnelde 合并 PR #567 和 #568
+🔀 在 TunneldeDev/Tunnelde 密集提交并合并了 #569-#577 系列 PR，涵盖多个功能改动  
 
-🌿 创建分支 fix/scaled-scene-offset 于 TunneldeDev/TunneldeDebugger
+🌿 创建了分支 codex/responsive-layout-fixes，用于响应式布局修复  
 
-🌿 创建分支 fix/settings-group-scroll 于 TunneldeDev/Tunnelde
+🧪 在 TunneldeDev/TunneldeDebugger 提交并合并了 PR #12  
 
-🌿 创建分支 feat/debugger-workbench-controls 于 TunneldeDev/TunneldeDebugger
+📦 大部分 PR 在创建当天即完成合并，说明改动粒度小、流程顺畅  
 
-🌿 初始化 TunneldeDev/TunneldeDebugger 的 main 分支
+🗓️ 工作集中在 11/25-11/27，以 Tunnelde 主仓库为主要开发阵地
 <!-- ACTIVITY_END -->
 
 ---
